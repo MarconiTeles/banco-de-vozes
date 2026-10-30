@@ -1,0 +1,13 @@
+{
+  "id": "manu-v1",
+  "transcript": "Imagina uma marca que é tão confiante que você pode testar ela durante 15 dias. E se não gostar, eles devolvem cada centavo do seu dinheiro. E não é um produto digital.",
+  "direction": "Voz feminina da Manu conforme o áudio de referência autorizado por Marconi. Falar em português do Brasil (pt-BR), preservando identidade vocal, timbre, registro, textura, pronúncia e sotaque da referência. Nenhuma região específica foi definida; não impor sotaque diferente, voz grave masculina, falsete ou caricatura. Fala corrida, viva e espontânea, com ritmo ágil de conversa real; pessoa acordada e interessada, frase inteira conectada, sem arrastar vogais, sem pausas artificiais e sem tom recitado, robótico, lento ou sonolento. Se terminar antes, silêncio somente depois da frase; não esticar a fala para preencher o clipe.",
+  "authorized_by": "Marconi, 30/10/2026: pedido explícito nesta conversa para criar o banco de referências de voz e cadastrar a voz da Manu com o anexo VOICE MANU.mp3. Cadastro local; sem autorização de publicação. Proveniência complementar em provenance/provenance.json no perfil manu-v1.",
+  "reference_sha256": "daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf",
+  "created_at": "2026-10-30T21:13:59.770570+00:00",
+  "name": "Manu",
+  "reference": "references/daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}

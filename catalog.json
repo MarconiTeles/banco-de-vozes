@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "name": "Banco de vozes Minimal",
+  "language": "pt-BR",
+  "brand_pronunciation": {
+    "Minimal": "MÍnimal, tônica na primeira sílaba; grafia de pronúncia para síntese: Mínimal"
+  },
+  "sharing_authorization": {
+    "by": "Marconi",
+    "date": "2026-10-30",
+    "request_literal": "o banco de voz deve ser um projeto commitado no github para estar presente e ser atualizado ao mesmo tempo em todas as maquinas.",
+    "scope": "Repositório privado compartilhado nas máquinas de Marconi. Não autoriza publicação pública de clones."
+  },
+  "profiles": [
+    "voices/manu-indignada-v1/profile.json",
+    "voices/manu-v1/profile.json"
+  ],
+  "files_sha256": {
+    "references/daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf.wav": "daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf",
+    "voices/manu-v1/profile.json": "8a1e96467ae87972ad48a64a1d4624ccc5965ec7337bf63d19f37bc98ee7d269",
+    "sources/d2f4316f0367d668d8f03ac1cc5cf5782bccd7ef450cdda8fa4a5431b3875e20.mp3": "d2f4316f0367d668d8f03ac1cc5cf5782bccd7ef450cdda8fa4a5431b3875e20",
+    "voices/manu-indignada-v1/profile.json": "2f2f9eba28486c1f24f1f0cb818439c38d2d009f705352a7c77d86a8ea33b211"
+  },
+  "sources": {
+    "manu-v1": {
+      "file": "sources/d2f4316f0367d668d8f03ac1cc5cf5782bccd7ef450cdda8fa4a5431b3875e20.mp3",
+      "original_filename": "VOICE MANU.mp3"
+    }
+  }
+}

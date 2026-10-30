@@ -1,0 +1,5 @@
+*.wav binary
+*.mp3 binary
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf

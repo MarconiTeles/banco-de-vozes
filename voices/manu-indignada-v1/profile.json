@@ -1,0 +1,13 @@
+{
+  "id": "manu-indignada-v1",
+  "transcript": "Imagina uma marca que é tão confiante que você pode testar ela durante 15 dias. E se não gostar, eles devolvem cada centavo do seu dinheiro. E não é um produto digital.",
+  "direction": "Voz feminina da Manu conforme o áudio de referência autorizado por Marconi. Falar em português do Brasil (pt-BR), preservando identidade vocal, timbre, registro, textura, pronúncia e sotaque da referência. Nenhuma região específica foi definida; não impor sotaque diferente, voz grave masculina, falsete ou caricatura. Fala corrida, viva e espontânea, com ritmo ágil de conversa real; pessoa acordada e interessada, frase inteira conectada, sem arrastar vogais, sem pausas artificiais e sem tom recitado, robótico, lento ou sonolento. Se terminar antes, silêncio somente depois da frase; não esticar a fala para preencher o clipe. Pronúncia obrigatória da marca Minimal: MÍnimal, com a sílaba inicial MÍ tônica. A grafia Mínimal no roteiro sinaliza essa pronúncia; dizer a palavra inteira naturalmente, sem soletrar nem separar sílabas. Atuação desta versão: indignação bem-humorada, incrédula, como quem conta para uma amiga um absurdo engraçado que aconteceu com o namorado. A reclamação é divertida e cúmplice. Começar com a energia de \"isso é um absurdo\", enfatizar com ironia \"acha que é modelo\" e terminar \"ficou lindo mesmo\" como uma admissão divertida, espontânea. Manter a identidade e o timbre femininos da Manu, com variação de entonação e ritmo ágil conectado. Sem gritar, sem locução publicitária, sem caricatura teatral, sem acrescentar risadas ou palavras ao roteiro.",
+  "authorized_by": "Marconi, 30/10/2026, nesta conversa: corrigir a pronúncia para MÍnimal, dar tom de isso é um absurdo e adequar a copy. Variante de atuação da mesma referência autorizada da Manu (manu-v1), preservando identidade vocal e histórico. Escopo: gerar o voiceover revisado.",
+  "reference_sha256": "daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf",
+  "created_at": "2026-10-30T21:33:03.728279+00:00",
+  "name": "Manu — indignação bem-humorada",
+  "reference": "references/daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
