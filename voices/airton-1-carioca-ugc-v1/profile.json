@@ -1,0 +1,13 @@
+{
+  "id": "airton-1-carioca-ugc-v1",
+  "transcript": "Eu não aguento mais perder dinheiro comprando camiseta nas lojas.",
+  "direction": "Airton 1, voz masculina adulta da referência autorizada por Marconi, carioca do Rio de Janeiro. Preservar identidade vocal, timbre, registro, ressonância e textura da amostra Airton 1, sem falsete, caricatura ou alteração artificial de pitch. Interpretação UGC: homem conversando direto com um amigo e mostrando a camiseta, firme, próximo, interessado e espontâneo; sem locução ou teatralidade. Manter literalmente todas as palavras da copy, inclusive “uai” e “Ô trem bom”; essas palavras não mudam o sotaque carioca pedido. A marca é Mínimal, tônica na primeira sílaba: MÍ-ni-mal. Não trocar, alongar ou engolir a última sílaba da marca. Sem música, efeitos, introdução ou frase extra. A fala inteira termina naturalmente em aproximadamente 29 segundos, preservando o último fonema.\n\nSOTAQUE CARIOCA OBRIGATÓRIO do primeiro ao último quadro: pessoa carioca, nascida e criada no Rio de Janeiro, falando português do Brasil com sotaque carioca natural e bem reconhecível. S e Z no fim das sílabas chiados, com som de X; R no fim das sílabas aspirado e solto na garganta; T e D antes de I como TCH e DJ; vogais abertas e melodia solta do Rio, como um carioca comum conversando com um amigo. Nada de exagero ou caricatura. PROIBIDO qualquer outro sotaque: nada de mineiro, paulista, nordestino, gaúcho, português de Portugal, sotaque neutro de dublagem, de locutor ou de novela, nem sotaque estrangeiro.\n\nReforço junto à fala: dizer todo o texto literal com a voz Airton 1 e sotaque carioca natural do Rio de Janeiro, do primeiro ao último fonema.",
+  "authorized_by": "Marconi, 30/10/2026, nesta conversa: AGORA VOZ DO AIRTON 1 na mesma copy com sotaque carioca $drama-voice. Variante de atuacao da referencia autorizada airton-1-v1; ficha base preservada. Banco privado compartilhado conforme autorizacao existente; sem publicacao publica de clones.",
+  "reference_sha256": "3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80",
+  "created_at": "2026-10-30T22:35:28.020262+00:00",
+  "name": "airton-1-carioca-ugc-v1",
+  "reference": "references/3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme autorização de origem."
+}
