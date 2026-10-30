@@ -1,0 +1,13 @@
+{
+  "id": "airton-1-carioca-ugc-v3",
+  "transcript": "Eu não aguento mais perder dinheiro comprando camiseta nas lojas.",
+  "direction": "Airton 1, carioca do Rio de Janeiro, mesma voz da referência. Uma conversa animada com um amigo ao seu lado: você adorou a camiseta e quer mostrar por quê. Entre já conversando, sorridente e empolgado. As duas exclamações são descobertas felizes, vivas e afirmativas. Mostre satisfação no toque macio, convicção nos três benefícios e cumplicidade no convite final.\n\nFale rápido e à vontade, ligando uma ideia à seguinte. Artigos e conectivos passam leves; as palavras importantes recebem inflexões curtas. Ênfase significa mais intenção, não alongar palavras ou parar antes delas. As vírgulas são inflexões dentro do mesmo fluxo. O aparte interrogativo é rápido e já emenda na explicação seguinte. A lista de benefícios cresce numa única frase corrida. A última exclamação termina afirmativa e já se liga ao convite final. Respire discretamente entre ideias completas, sem criar cadência de leitura. Mantenha o texto inteiro, inclusive as expressões regionais, sempre com sotaque carioca. Pronuncie Mínimal como palavra única com MÍ tônico.\n\nSOTAQUE CARIOCA OBRIGATÓRIO do primeiro ao último quadro: pessoa carioca, nascida e criada no Rio de Janeiro, falando português do Brasil com sotaque carioca natural e bem reconhecível. S e Z no fim das sílabas chiados, com som de X; R no fim das sílabas aspirado e solto na garganta; T e D antes de I como TCH e DJ; vogais abertas e melodia solta do Rio, como um carioca comum conversando com um amigo. Nada de exagero ou caricatura. PROIBIDO qualquer outro sotaque: nada de mineiro, paulista, nordestino, gaúcho, português de Portugal, sotaque neutro de dublagem, de locutor ou de novela, nem sotaque estrangeiro.\n\nDiga o texto inteiro com voz Airton 1 e sotaque carioca, numa conversa fluida e entusiasmada.",
+  "authorized_by": "Marconi, 30/10/2026, nesta conversa: ta ZERO natural. cheio de pausas estranhas de IA e sem esclamar nos pontos certos.; o prompt deve ser muito melhor. Variante v3 com direcao concentrada apos v2 ficar lenta e atingir o limite antes do CTA. Mesma copy, Airton 1, sotaque carioca; referencia autorizada preservada; banco privado sincronizado.",
+  "reference_sha256": "3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80",
+  "created_at": "2026-10-30T22:53:15.795297+00:00",
+  "name": "airton-1-carioca-ugc-v3",
+  "reference": "references/3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme autorização de origem."
+}
