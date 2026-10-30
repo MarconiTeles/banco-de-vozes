@@ -1,0 +1,13 @@
+{
+  "id": "airton-1-v1",
+  "transcript": "Eu não aguento mais perder dinheiro comprando camiseta nas lojas.",
+  "direction": "Voz Airton 1 conforme a referência convertida pelo preset ZEBRA do DaVinci Resolve. Preservar identidade vocal, timbre, registro, textura, pronúncia e sotaque da amostra em português do Brasil, com fala viva e espontânea, sem caricatura nem alteração artificial de pitch. A marca Minimal se pronuncia MÍnimal, com tônica na primeira sílaba. Airton 1 é o nome do cadastro desta voz; Zebra é somente o nome do preset de origem.",
+  "authorized_by": "Marconi, 30/10/2026, nesta conversa: cadastrar Tio Phill, Ester e Zebra, renomeando Zebra para Airton 1, no banco compartilhado Drama Voice. Referência obtida de WAV existente do DaVinci Voice Convert, preset ZEBRA.drvox; fonte e hash preservados. Compartilhamento privado no GitHub autorizado pelo pedido do banco sincronizado em todas as máquinas; sem publicação pública de clones.",
+  "reference_sha256": "3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80",
+  "created_at": "2026-10-30T22:12:58.072124+00:00",
+  "name": "Airton 1",
+  "reference": "references/3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}

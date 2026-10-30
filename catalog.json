@@ -12,21 +12,88 @@
     "scope": "Repositório privado compartilhado nas máquinas de Marconi. Não autoriza publicação pública de clones."
   },
   "profiles": [
+    "voices/airton-1-v1/profile.json",
+    "voices/ester-v1/profile.json",
     "voices/manu-indignada-v1/profile.json",
     "voices/manu-indignada-v2/profile.json",
-    "voices/manu-v1/profile.json"
+    "voices/manu-v1/profile.json",
+    "voices/tio-phill-v1/profile.json"
   ],
   "files_sha256": {
     "references/daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf.wav": "daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf",
     "voices/manu-v1/profile.json": "8a1e96467ae87972ad48a64a1d4624ccc5965ec7337bf63d19f37bc98ee7d269",
     "sources/d2f4316f0367d668d8f03ac1cc5cf5782bccd7ef450cdda8fa4a5431b3875e20.mp3": "d2f4316f0367d668d8f03ac1cc5cf5782bccd7ef450cdda8fa4a5431b3875e20",
     "voices/manu-indignada-v1/profile.json": "2f2f9eba28486c1f24f1f0cb818439c38d2d009f705352a7c77d86a8ea33b211",
-    "voices/manu-indignada-v2/profile.json": "3eaec0d733655fb9b43834690028152d43e865d241d65b3279ab08ae87c66884"
+    "voices/manu-indignada-v2/profile.json": "3eaec0d733655fb9b43834690028152d43e865d241d65b3279ab08ae87c66884",
+    "references/46ad28e674661417d1e838b3e97d4758c88b89b6b26dc8d8bd01cd0f8df16300.wav": "46ad28e674661417d1e838b3e97d4758c88b89b6b26dc8d8bd01cd0f8df16300",
+    "voices/tio-phill-v1/profile.json": "c4b6ff1535c50befa7a2c1f2040b624076e118b7a3488e53b862a592c285bb1b",
+    "sources/ab6f60f7650c246241b282ed745cb9802a9a3a2eeb2664a5118495de98b0ed74.wav": "ab6f60f7650c246241b282ed745cb9802a9a3a2eeb2664a5118495de98b0ed74",
+    "voices/tio-phill-v1/provenance.json": "a22616ef999d60723c682ab250ecc5957809205b9acb77d6e45547cc70538f50",
+    "voices/tio-phill-v1/transcription.json": "a8ea59f8696e69fc2b9295f451cb26ea22676da2099a0b21e8fdef89ea1b2bc2",
+    "references/14c01572ee506c5a59daf39fe5d7b099291c385297d75e449bcd342f39f55942.wav": "14c01572ee506c5a59daf39fe5d7b099291c385297d75e449bcd342f39f55942",
+    "voices/ester-v1/profile.json": "87a387697738d5fbbc63281b5051cd5a53e72c407d0d7d6086fe101e768985ff",
+    "sources/f719e6c154aa97804b5c6ba0b2cfd78566842fdef8107044f1d1722f3350497c.wav": "f719e6c154aa97804b5c6ba0b2cfd78566842fdef8107044f1d1722f3350497c",
+    "voices/ester-v1/provenance.json": "65f270bfbc72694e8acd5a8313f663a66a6c4a386be1bb914794747c4879ec79",
+    "voices/ester-v1/transcription.json": "1fb4e6415837d8eb80d1101ab802442efb128e4cceb45b43e7c7b0dca69d7262",
+    "references/3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80.wav": "3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80",
+    "voices/airton-1-v1/profile.json": "331ff29add12d7305e2cb628aa5b7030b946c8cc0f1133e1d543a8dba7b1bd46",
+    "sources/954a1f269ce1aade8877fdb02b4c1663dc8e5d410afd44ada229e1009bd655c4.wav": "954a1f269ce1aade8877fdb02b4c1663dc8e5d410afd44ada229e1009bd655c4",
+    "voices/airton-1-v1/provenance.json": "42af1229313bb1b20ce57357991c459cb095a47f471b8c90d6f15d42bcadd6b5",
+    "voices/airton-1-v1/transcription.json": "df12cd9fb5a64086cd16800bef47b4f2e8e327d6a79bba082ac9ee5b3729f867"
   },
   "sources": {
     "manu-v1": {
       "file": "sources/d2f4316f0367d668d8f03ac1cc5cf5782bccd7ef450cdda8fa4a5431b3875e20.mp3",
       "original_filename": "VOICE MANU.mp3"
+    },
+    "tio-phill-v1": {
+      "file": "sources/ab6f60f7650c246241b282ed745cb9802a9a3a2eeb2664a5118495de98b0ed74.wav",
+      "original_filename": "grok-video-2369ac27-28b7-4fc8-8c9d-3aaef937c652-TIO PHILL-1.wav"
+    },
+    "ester-v1": {
+      "file": "sources/f719e6c154aa97804b5c6ba0b2cfd78566842fdef8107044f1d1722f3350497c.wav",
+      "original_filename": "B03-c1-Ester.wav"
+    },
+    "airton-1-v1": {
+      "file": "sources/954a1f269ce1aade8877fdb02b4c1663dc8e5d410afd44ada229e1009bd655c4.wav",
+      "original_filename": "Son_video_script_for_family_20260928193025-ZEBRA.wav"
     }
-  }
+  },
+  "identities": [
+    {
+      "order": 1,
+      "name": "Manu",
+      "default_profile": "manu-v1",
+      "profiles": [
+        "manu-v1",
+        "manu-indignada-v1",
+        "manu-indignada-v2"
+      ]
+    },
+    {
+      "order": 2,
+      "name": "Tio Phill",
+      "default_profile": "tio-phill-v1",
+      "profiles": [
+        "tio-phill-v1"
+      ]
+    },
+    {
+      "order": 3,
+      "name": "Ester",
+      "default_profile": "ester-v1",
+      "profiles": [
+        "ester-v1"
+      ]
+    },
+    {
+      "order": 4,
+      "name": "Airton 1",
+      "source_alias": "Zebra",
+      "default_profile": "airton-1-v1",
+      "profiles": [
+        "airton-1-v1"
+      ]
+    }
+  ]
 }

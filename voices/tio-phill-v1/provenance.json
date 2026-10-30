@@ -1,0 +1,34 @@
+{
+  "id": "tio-phill-v1",
+  "name": "Tio Phill",
+  "source_filename": "grok-video-2369ac27-28b7-4fc8-8c9d-3aaef937c652-TIO PHILL-1.wav",
+  "resolve_media_relative_path": "SITCOM - 01/Audio Files/VoiceConvert/grok-video-2369ac27-28b7-4fc8-8c9d-3aaef937c652-TIO PHILL-1.wav",
+  "source_sha256": "ab6f60f7650c246241b282ed745cb9802a9a3a2eeb2664a5118495de98b0ed74",
+  "preset_filename": "TIO PHILL.drvox",
+  "preset_sha256": "950031772138cf89353472f3730946f1d0f0e162cc5103af7a5e6bfe8aafdad5",
+  "reference_origin": "existing_DaVinci_VoiceConvert_output",
+  "original_training_audio": false,
+  "source_preserved": true,
+  "listening_verified": false,
+  "authorization": {
+    "by": "Marconi",
+    "date": "2026-10-30",
+    "scope": "Cadastro no banco privado compartilhado do Drama Voice",
+    "request_tio_phill": "pegue o arquivo da voz do Tio Phill do banco de vozes do davinci e vamos coloca-lo como segunda voz do nosso banco do $drama-voice : Tio Phill",
+    "request_ester_airton": "Pegue tambem a voz da Ester e da Zebra. a Zebra a gente vai renomear para Airton 1"
+  },
+  "association_evidence": [
+    "Arquivo WAV na pasta VoiceConvert do DaVinci Resolve Media",
+    "Sufixo do nome do arquivo identifica o preset",
+    "Metadados do WAV: Created by DaVinci AI Neural Engine / DaVinci Resolve"
+  ],
+  "perceptual_identity_verified": false,
+  "transcription": {
+    "engine": "mlx-community/whisper-large-v3-turbo",
+    "language": "pt",
+    "local_offline": true,
+    "listening_verified": false
+  },
+  "source_file_in_bank": "sources/ab6f60f7650c246241b282ed745cb9802a9a3a2eeb2664a5118495de98b0ed74.wav",
+  "reference_sha256": "46ad28e674661417d1e838b3e97d4758c88b89b6b26dc8d8bd01cd0f8df16300"
+}

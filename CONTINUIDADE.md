@@ -31,3 +31,19 @@ Resultado entregue: job `8343b8e7f9ddbf71a8ebbc28`, `manu-indignada-v2`, seed 32
 Busca no Segundo Cérebro funcionou e encontrou a pronúncia Mínimal já registrada em produção anterior. `registrar_decisao` para a correção desta sessão retornou `Error executing tool registrar_decisao`. `resolver_projeto` e `registrar_report` não estão expostos. Este arquivo é handoff local pendente de ingestão, não recibo de gravação canônica. Resolver o projeto pelo repositório real e usar chave `banco-de-vozes:20261030:github-bootstrap` ao consolidar.
 
 A tentativa de criar/atualizar o estado do novo projeto via `atualizar_projeto`, com esse repositório e chave estável, também retornou `Error executing tool atualizar_projeto`. A continuidade está versionada neste arquivo; não há gravação canônica confirmada no Segundo Cérebro.
+
+## Tio Phill, Ester e Airton 1 — 30/10/2026
+
+Marconi pediu Tio Phill como segunda identidade do banco, depois Ester e Zebra, renomeando Zebra para Airton 1. Cadastros: `tio-phill-v1`, `ester-v1` e `airton-1-v1`. `catalog.json` registra a ordem das quatro identidades (Manu, Tio Phill, Ester, Airton 1), separando conceitualmente as variantes de atuação já existentes da Manu.
+
+Presets encontrados pelo MCP do Resolve em `Voice Presets`: `TIO PHILL.drvox` (SHA `950031772138cf89353472f3730946f1d0f0e162cc5103af7a5e6bfe8aafdad5`), `Ester.drvox` (`4a88fb8a62e6a81c5433a327990f47579ed65878110aed4cff9ec87aafb99448`) e `ZEBRA.drvox` (`97bd723c6b098064a69e01a0f95098f0e0849e221754ff3d4f846ab5e1c0d78f`). São presets binários, não WAVs; não houve importação direta de `.drvox` no Drama nem substituição por outra identidade. A documentação oficial também distingue Voice Convert de Speech Generator; este último pede áudio, não esses presets.
+
+Foram localizados WAVs preexistentes em `DaVinci Resolve Media/.../VoiceConvert`, com metadados do Neural Engine e sufixos de preset. Nenhuma fala nova foi gerada no DaVinci e nenhum projeto, timeline ou preset foi alterado. A busca inicial encontrou os registros de recuperação do SITCOM e os manifestos da migração; a existência e os hashes das fontes foram conferidos no disco pelo MCP. Os originais completos estão copiados em `sources`, e as referências de condicionamento em `references` (PCM16 mono 44,1 kHz):
+
+- Tio Phill: `grok-video-2369ac27-28b7-4fc8-8c9d-3aaef937c652-TIO PHILL-1.wav`; 5,005 s; referência SHA `46ad28e674661417d1e838b3e97d4758c88b89b6b26dc8d8bd01cd0f8df16300`.
+- Ester: `B03-c1-Ester.wav`; 8 s; referência SHA `14c01572ee506c5a59daf39fe5d7b099291c385297d75e449bcd342f39f55942`. O candidato B05 foi descartado antes do cadastro porque a palavra inicial da segunda frase ficou ambígua entre transcritores.
+- Airton 1: `Son_video_script_for_family_20260928193025-ZEBRA.wav`; 6,5065 s; referência SHA `3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80`. O nome Zebra ficou somente como proveniência/alias de origem.
+
+Transcrições individuais locais por MLX Whisper large-v3-turbo e proveniência com autorização, preset, fonte e hashes estão em `voices/ID/transcription.json` e `provenance.json`. A associação ao preset é evidenciada pelo nome/contexto do arquivo, não por uma ligação criptográfica entre modelo e som. Não são os áudios originais de treinamento do Voice Convert. Sem escuta; timbre, sotaque, naturalidade e identidade perceptiva não certificados. Nenhuma inferência de teste do Drama realizada para esses três cadastros.
+
+O registro foi feito no motor pelo CLI nativo, depois exportado em uma única publicação do banco com nomes finais e originais completos. A configuração de sincronização dos dois projetos T3 permanece a mesma; não há nova prova de importação/geração nativa Windows nesta etapa. Pendência de memória externa mantém-se explícita; este relatório versionado consolida a continuidade com chave sugerida `banco-de-vozes:20261030:davinci-voices`.

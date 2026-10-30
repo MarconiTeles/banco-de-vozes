@@ -1,0 +1,35 @@
+{
+  "id": "airton-1-v1",
+  "name": "Airton 1",
+  "source_filename": "Son_video_script_for_family_20260928193025-ZEBRA.wav",
+  "resolve_media_relative_path": "SITCOM - 01/Audio Files/VoiceConvert/Son_video_script_for_family_20260928193025-ZEBRA.wav",
+  "source_sha256": "954a1f269ce1aade8877fdb02b4c1663dc8e5d410afd44ada229e1009bd655c4",
+  "preset_filename": "ZEBRA.drvox",
+  "preset_sha256": "97bd723c6b098064a69e01a0f95098f0e0849e221754ff3d4f846ab5e1c0d78f",
+  "reference_origin": "existing_DaVinci_VoiceConvert_output",
+  "original_training_audio": false,
+  "source_preserved": true,
+  "listening_verified": false,
+  "authorization": {
+    "by": "Marconi",
+    "date": "2026-10-30",
+    "scope": "Cadastro no banco privado compartilhado do Drama Voice",
+    "request_tio_phill": "pegue o arquivo da voz do Tio Phill do banco de vozes do davinci e vamos coloca-lo como segunda voz do nosso banco do $drama-voice : Tio Phill",
+    "request_ester_airton": "Pegue tambem a voz da Ester e da Zebra. a Zebra a gente vai renomear para Airton 1"
+  },
+  "association_evidence": [
+    "Arquivo WAV na pasta VoiceConvert do DaVinci Resolve Media",
+    "Sufixo do nome do arquivo identifica o preset",
+    "Metadados do WAV: Created by DaVinci AI Neural Engine / DaVinci Resolve"
+  ],
+  "perceptual_identity_verified": false,
+  "transcription": {
+    "engine": "mlx-community/whisper-large-v3-turbo",
+    "language": "pt",
+    "local_offline": true,
+    "listening_verified": false
+  },
+  "source_file_in_bank": "sources/954a1f269ce1aade8877fdb02b4c1663dc8e5d410afd44ada229e1009bd655c4.wav",
+  "reference_sha256": "3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80",
+  "renamed_from": "Zebra"
+}

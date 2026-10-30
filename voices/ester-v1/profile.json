@@ -1,0 +1,13 @@
+{
+  "id": "ester-v1",
+  "transcript": "O certo é a calça que não é nem larga nem apertada. Ela acompanha a perna sem marcar e sem sobrar pano.",
+  "direction": "Voz Ester conforme a referência convertida pelo preset Ester do DaVinci Resolve. Preservar identidade vocal, timbre, registro, textura, pronúncia e sotaque da amostra em português do Brasil, com fala viva e espontânea, sem caricatura nem alteração artificial de pitch. A marca Minimal se pronuncia MÍnimal, com tônica na primeira sílaba.",
+  "authorized_by": "Marconi, 30/10/2026, nesta conversa: cadastrar Tio Phill, Ester e Zebra, renomeando Zebra para Airton 1, no banco compartilhado Drama Voice. Referência obtida de WAV existente do DaVinci Voice Convert, preset Ester.drvox; fonte e hash preservados. Compartilhamento privado no GitHub autorizado pelo pedido do banco sincronizado em todas as máquinas; sem publicação pública de clones.",
+  "reference_sha256": "14c01572ee506c5a59daf39fe5d7b099291c385297d75e449bcd342f39f55942",
+  "created_at": "2026-10-30T22:12:57.373092+00:00",
+  "name": "Ester",
+  "reference": "references/14c01572ee506c5a59daf39fe5d7b099291c385297d75e449bcd342f39f55942.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}

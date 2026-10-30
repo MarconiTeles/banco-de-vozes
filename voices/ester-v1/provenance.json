@@ -1,0 +1,39 @@
+{
+  "id": "ester-v1",
+  "name": "Ester",
+  "source_filename": "B03-c1-Ester.wav",
+  "resolve_media_relative_path": "CU-17tr6jgwj0w VOZ ESTER/Audio Files/VoiceConvert/B03-c1-Ester.wav",
+  "source_sha256": "f719e6c154aa97804b5c6ba0b2cfd78566842fdef8107044f1d1722f3350497c",
+  "preset_filename": "Ester.drvox",
+  "preset_sha256": "4a88fb8a62e6a81c5433a327990f47579ed65878110aed4cff9ec87aafb99448",
+  "reference_origin": "existing_DaVinci_VoiceConvert_output",
+  "original_training_audio": false,
+  "source_preserved": true,
+  "listening_verified": false,
+  "rejected_candidate": {
+    "source_filename": "B05-Ester.wav",
+    "source_sha256": "ff6aabebb58bbd14326f25de986905ba87db1f085311eb3234f7499d09aeef2a",
+    "reason": "Palavra inicial ambígua no ASR; candidato substituído antes do cadastro."
+  },
+  "authorization": {
+    "by": "Marconi",
+    "date": "2026-10-30",
+    "scope": "Cadastro no banco privado compartilhado do Drama Voice",
+    "request_tio_phill": "pegue o arquivo da voz do Tio Phill do banco de vozes do davinci e vamos coloca-lo como segunda voz do nosso banco do $drama-voice : Tio Phill",
+    "request_ester_airton": "Pegue tambem a voz da Ester e da Zebra. a Zebra a gente vai renomear para Airton 1"
+  },
+  "association_evidence": [
+    "Arquivo WAV na pasta VoiceConvert do DaVinci Resolve Media",
+    "Sufixo do nome do arquivo identifica o preset",
+    "Metadados do WAV: Created by DaVinci AI Neural Engine / DaVinci Resolve"
+  ],
+  "perceptual_identity_verified": false,
+  "transcription": {
+    "engine": "mlx-community/whisper-large-v3-turbo",
+    "language": "pt",
+    "local_offline": true,
+    "listening_verified": false
+  },
+  "source_file_in_bank": "sources/f719e6c154aa97804b5c6ba0b2cfd78566842fdef8107044f1d1722f3350497c.wav",
+  "reference_sha256": "14c01572ee506c5a59daf39fe5d7b099291c385297d75e449bcd342f39f55942"
+}
