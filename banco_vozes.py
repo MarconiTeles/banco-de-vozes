@@ -114,6 +114,14 @@ def locked():
 
 
 def machine():
+    if not (STATE / 'machine.json').exists():
+        if os.name == 'nt':
+            runtime = Path(os.environ['LOCALAPPDATA']) / 'ULTRON/drama3/cli/drama_voice_windows.py'
+        else:
+            runtime = ROOT.parent / 'drama-voice/drama_voice.py'
+        if not runtime.is_file():
+            raise RuntimeError('Runtime ausente; execute configure --runtime CAMINHO --python PYTHON')
+        write(STATE / 'machine.json', {'runtime': str(runtime.resolve()), 'python': sys.executable})
     config = read(STATE / 'machine.json')
     path = Path(config['runtime']).resolve(strict=True)
     spec = importlib.util.spec_from_file_location('drama_bank_runtime', path)

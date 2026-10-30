@@ -5,13 +5,15 @@ Fonte de verdade privada de referências vocais autorizadas, compartilhada entre
 | Voz | ID | Direção |
 | --- | --- | --- |
 | Manu | `manu-v1` | Ficha base, conversa viva e espontânea |
-| Manu | `manu-indignada-v1` | Indignação bem-humorada de “isso é um absurdo”; mesma identidade vocal |
+| Manu | `manu-indignada-v2` | Indignação bem-humorada de “isso é um absurdo”; mesma identidade vocal; direção enxuta |
+
+`manu-indignada-v1` permanece no histórico. Sua primeira geração leu instruções; preferir v2 para a direção solicitada. A primeira tentativa de revisão não foi entregue como voiceover correto.
 
 A marca Minimal se pronuncia **MÍnimal**, tônica inicial. Em texto para síntese, escrever `Mínimal`. A ficha de indignação é específica dessa versão; não muda a atuação padrão de todas as cenas.
 
 ## Sincronização
 
-O comando instalado `drama-voice` busca `origin/main`, permite somente avanço rápido, confere hashes e importa os perfis na instalação local antes de operar. Um sincronizador nativo também executa a cada minuto. Máquinas conectadas convergem para o mesmo commit; não existe troca atômica simultânea entre máquinas offline. Nenhuma voz é usada pelo comando integrado sem uma sincronização bem-sucedida.
+Os launchers `drama-voice` (Mac) e `drama-voice.cmd` (Windows) deste repositório buscam `origin/main`, permitem somente avanço rápido, conferem hashes e importam os perfis na instalação local antes de operar. O projeto está cadastrado no T3 do Mac e Windows com autoPull habilitado. No Mac, há também um sincronizador nativo por minuto. Máquinas conectadas convergem para o mesmo commit; não existe troca atômica simultânea entre máquinas offline. Nenhuma voz é usada pelos launchers deste banco sem uma sincronização bem-sucedida.
 
 Alterações locais, commits não publicados ou divergências de ID impedem a sincronização, preservando o checkout e os perfis. Não há reset/clean/stash automático. Mesmo ID com outra referência ou direção é rejeitado; publicar um novo ID versionado.
 
@@ -24,6 +26,8 @@ python banco_vozes.py run generate --voice manu-v1 --text-file /caminho/fala.txt
 ```
 
 `configure` recebe o script nativo instalado: `drama_voice.py` no Mac ou `drama_voice_windows.py` no Windows. Os caminhos da máquina e o recibo ficam em `.state`, ignorado no Git. `catalog.json` e `voices/*/profile.json` usam apenas caminhos relativos e hashes compartilhados. Os perfis originais de cada runtime preservam seus caminhos próprios.
+
+Os launchers descobrem automaticamente a instalação padrão se ainda não existir configuração local. No Windows, usar `C:\Users\MarconiReis\Projects\MacBook\banco-de-vozes\drama-voice.cmd`; no Mac, o comando `~/.local/bin/drama-voice` aponta ao launcher do banco. O motor continua separado e com os mesmos pesos, backend e locais de geração/arquivo.
 
 ## Cadastro e atualização
 

@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+import os
+from pathlib import Path
+import sys
+
+script = Path(__file__).resolve().parent / 'banco_vozes.py'
+os.execv(sys.executable, [sys.executable, str(script), 'run', *sys.argv[1:]])

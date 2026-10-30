@@ -13,13 +13,15 @@
   },
   "profiles": [
     "voices/manu-indignada-v1/profile.json",
+    "voices/manu-indignada-v2/profile.json",
     "voices/manu-v1/profile.json"
   ],
   "files_sha256": {
     "references/daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf.wav": "daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf",
     "voices/manu-v1/profile.json": "8a1e96467ae87972ad48a64a1d4624ccc5965ec7337bf63d19f37bc98ee7d269",
     "sources/d2f4316f0367d668d8f03ac1cc5cf5782bccd7ef450cdda8fa4a5431b3875e20.mp3": "d2f4316f0367d668d8f03ac1cc5cf5782bccd7ef450cdda8fa4a5431b3875e20",
-    "voices/manu-indignada-v1/profile.json": "2f2f9eba28486c1f24f1f0cb818439c38d2d009f705352a7c77d86a8ea33b211"
+    "voices/manu-indignada-v1/profile.json": "2f2f9eba28486c1f24f1f0cb818439c38d2d009f705352a7c77d86a8ea33b211",
+    "voices/manu-indignada-v2/profile.json": "3eaec0d733655fb9b43834690028152d43e865d241d65b3279ab08ae87c66884"
   },
   "sources": {
     "manu-v1": {
