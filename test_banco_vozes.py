@@ -1,9 +1,12 @@
 import json
+import contextlib
+import shutil
 import subprocess
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
+from types import SimpleNamespace
 
 import banco_vozes as b
 
@@ -39,6 +42,21 @@ class VoiceBankTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError, 'outra ficha'):
                     b.install([incoming])
             self.assertEqual(b.read(path), old)
+
+    @unittest.skipIf(__import__('os').name == 'nt', 'Backend de arquivo Mac simulado; referências compartilhadas são verificadas em ambos os sistemas')
+    def test_import_preserves_canonical_wav_bytes_without_transcoding(self):
+        profile = b.verify()[0]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / 'archive'
+            local = Path(tmp) / 'internal'
+            module = SimpleNamespace(config=lambda: {}, execution_storage=lambda c: local,
+                                     locked=lambda *args: contextlib.nullcontext(),
+                                     transfer_bundle=lambda c, root, category, ident, folder: shutil.copytree(folder, root / category / ident))
+            with patch.object(b, 'machine', return_value=({}, root)), patch.object(b, 'runtime_module', return_value=module):
+                b.install([profile])
+            record = b.read(root / 'voices' / profile['id'] / 'voice.json')
+            self.assertEqual(b.sha(Path(record['reference'])), profile['reference_sha256'])
+            self.assertEqual(Path(record['reference']).read_bytes(), b.asset(profile['reference']).read_bytes())
 
     def test_git_sync_fast_forwards_and_preserves_dirty_or_diverged_checkout(self):
         def cmd(*args):

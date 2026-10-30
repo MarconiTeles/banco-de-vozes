@@ -14,6 +14,7 @@ import subprocess
 import sys
 import time
 import uuid
+import wave
 
 ROOT = Path(__file__).resolve().parent
 STATE = ROOT / '.state'
@@ -113,6 +114,14 @@ def locked():
                 fcntl.flock(f, fcntl.LOCK_UN)
 
 
+def runtime_module(config):
+    path = Path(config['runtime']).resolve(strict=True)
+    spec = importlib.util.spec_from_file_location('drama_bank_runtime', path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
 def machine():
     if not (STATE / 'machine.json').exists():
         if os.name == 'nt':
@@ -123,10 +132,7 @@ def machine():
             raise RuntimeError('Runtime ausente; execute configure --runtime CAMINHO --python PYTHON')
         write(STATE / 'machine.json', {'runtime': str(runtime.resolve()), 'python': sys.executable})
     config = read(STATE / 'machine.json')
-    path = Path(config['runtime']).resolve(strict=True)
-    spec = importlib.util.spec_from_file_location('drama_bank_runtime', path)
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
+    module = runtime_module(config)
     root = module.ROOT if os.name == 'nt' else module.storage(module.config())
     return config, Path(root)
 
@@ -142,20 +148,43 @@ def install(profiles):
             if sha(Path(old['reference'])) != v['reference_sha256']:
                 raise RuntimeError('Referência instalada divergiu: ' + v['id'])
             continue
-        folder = STATE / 'inputs' / v['id']
-        folder.mkdir(parents=True, exist_ok=True)
-        for name, field in [('transcript.txt', 'transcript'), ('direction.txt', 'direction')]:
-            (folder / name).write_text(v[field] + '\n', encoding='utf-8')
-        command = [config['python'], config['runtime'], 'voice-add', '--id', v['id'],
-                   '--audio', str(asset(v['reference'])), '--transcript-file', str(folder / 'transcript.txt'),
-                   '--direction-file', str(folder / 'direction.txt'), '--authorized-by', v['authorized_by']]
-        result = subprocess.run(command, capture_output=True, text=True, encoding='utf-8', timeout=90)
-        if result.returncode:
-            raise RuntimeError(result.stderr.strip() or result.stdout.strip())
+        # Copy canonical WAV bytes. Re-encoding on each OS changes container
+        # headers/encoder tags and would make the bank hashes machine-specific.
+        module = runtime_module(config)
+        c = None if os.name == 'nt' else module.config()
+        local = module.WORK if os.name == 'nt' else module.execution_storage(c)
+        guard = module.locked() if os.name == 'nt' else module.locked(local)
+        with guard:
+            target = existing.parent
+            if target.exists():
+                raise RuntimeError('Outro processo cadastrou a voz; repita a sincronização: ' + v['id'])
+            folder = local / 'voice-registration' / (v['id'] + '-' + uuid.uuid4().hex)
+            folder.mkdir(parents=True)
+            reference = asset(v['reference'])
+            shutil.copy2(reference, folder / 'reference.wav')
+            shutil.copy2(reference, folder / 'original.wav')
+            if sha(folder / 'reference.wav') != v['reference_sha256']:
+                raise RuntimeError('Cópia interna divergente; área local preservada')
+            with wave.open(str(reference)) as audio:
+                if (audio.getnchannels(), audio.getframerate(), audio.getsampwidth()) != (1, 44100, 2):
+                    raise RuntimeError('O banco exige referência WAV mono PCM16 44,1 kHz')
+                duration = audio.getnframes() / audio.getframerate()
+                if not 5 <= duration <= 30:
+                    raise RuntimeError('Duração fora do contrato de referência')
+            record = {k: v[k] for k in ('id', 'transcript', 'direction', 'authorized_by', 'created_at', 'authorization_scope')}
+            record.update(source=str(reference), source_sha256=v['reference_sha256'],
+                          reference=str(target / 'reference.wav'), reference_sha256=v['reference_sha256'],
+                          reference_info={'duration': duration, 'sample_rate': 44100, 'channels': 1})
+            write(folder / 'voice.json', record)
+            if os.name == 'nt':
+                target.parent.mkdir(parents=True, exist_ok=True)
+                os.rename(folder, target)
+            else:
+                module.transfer_bundle(c, root, 'voices', v['id'], folder)
+                shutil.rmtree(folder)
         installed = read(existing)
         if sha(Path(installed['reference'])) != v['reference_sha256']:
             raise RuntimeError('Importação alterou a referência: ' + v['id'])
-        shutil.rmtree(folder)
     return str(root)
 
 
