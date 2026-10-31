@@ -24,6 +24,7 @@
     "voices/manu-v1/profile.json",
     "voices/polo-b2-pov01-15003d23-v1/profile.json",
     "voices/polo-b2-pov02-15003d23-v1/profile.json",
+    "voices/polo-b2-pov03-15003d23-v1/profile.json",
     "voices/tio-phill-v1/profile.json"
   ],
   "files_sha256": {
@@ -60,7 +61,10 @@
     "sources/c0165b53986ec44a042d9830252c67e5fc3c914da5b954c09a96819c091ae233.wav": "c0165b53986ec44a042d9830252c67e5fc3c914da5b954c09a96819c091ae233",
     "references/90fb9f9e0e09fd4580a029110526041debb73d3325a65e69bb5e6fa2cc1de9f4.wav": "90fb9f9e0e09fd4580a029110526041debb73d3325a65e69bb5e6fa2cc1de9f4",
     "voices/polo-b2-pov02-15003d23-v1/profile.json": "9c4a1f9324698dc79d0ea6ef8197e59e0e24eda14ed3fbdc93f192b0c3664b6d",
-    "sources/3d2044ea9a9eec56f30f9d20d2acf182ec0e82d703dff0e78e2450346af1b94c.wav": "3d2044ea9a9eec56f30f9d20d2acf182ec0e82d703dff0e78e2450346af1b94c"
+    "sources/3d2044ea9a9eec56f30f9d20d2acf182ec0e82d703dff0e78e2450346af1b94c.wav": "3d2044ea9a9eec56f30f9d20d2acf182ec0e82d703dff0e78e2450346af1b94c",
+    "references/2fcd673efbc6d50d56d3685d52be064e0238dd1914b74ab3c8597d21e4b208bb.wav": "2fcd673efbc6d50d56d3685d52be064e0238dd1914b74ab3c8597d21e4b208bb",
+    "voices/polo-b2-pov03-15003d23-v1/profile.json": "d2eedeb798d6ca892652c7dcb4e55abb56cd120a3f1a8811132511b422c5aa86",
+    "sources/3a5435a5e23480df3ad7dc0bcdb0ed9078ea8cecf57d3fb3e252935af80e57da.wav": "3a5435a5e23480df3ad7dc0bcdb0ed9078ea8cecf57d3fb3e252935af80e57da"
   },
   "sources": {
     "manu-v1": {
@@ -105,6 +109,10 @@
     },
     "polo-b2-pov02-15003d23-v1": {
       "file": "sources/3d2044ea9a9eec56f30f9d20d2acf182ec0e82d703dff0e78e2450346af1b94c.wav",
+      "original_filename": "original.wav"
+    },
+    "polo-b2-pov03-15003d23-v1": {
+      "file": "sources/3a5435a5e23480df3ad7dc0bcdb0ed9078ea8cecf57d3fb3e252935af80e57da.wav",
       "original_filename": "original.wav"
     }
   },
