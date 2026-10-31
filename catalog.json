@@ -17,6 +17,7 @@
     "voices/airton-1-carioca-ugc-v3/profile.json",
     "voices/airton-1-v1/profile.json",
     "voices/alexandre-comfort-f71162ed-v1/profile.json",
+    "voices/alexandre-comfort-f71162ed-v2/profile.json",
     "voices/ester-v1/profile.json",
     "voices/manu-indignada-v1/profile.json",
     "voices/manu-indignada-v2/profile.json",
@@ -50,7 +51,8 @@
     "voices/airton-1-carioca-ugc-v3/profile.json": "6986aefe211e341c8313aafefcec363f588f9b3edf4ecd4c0f7ccf1775a98bec",
     "references/c8c2e2620f9342681962e7873363c598ad970637aabc6610f4d65d4dc98bdd4b.wav": "c8c2e2620f9342681962e7873363c598ad970637aabc6610f4d65d4dc98bdd4b",
     "voices/alexandre-comfort-f71162ed-v1/profile.json": "b62f2dd341951d32ad4a1fc49a1458d6eb6e70ac33b6e894cf306fe4b58e2ac3",
-    "sources/3e5fcbf3b04735b754d79e5de837fd3d7e4d36ee416d8b8021de8838cf095c99.wav": "3e5fcbf3b04735b754d79e5de837fd3d7e4d36ee416d8b8021de8838cf095c99"
+    "sources/3e5fcbf3b04735b754d79e5de837fd3d7e4d36ee416d8b8021de8838cf095c99.wav": "3e5fcbf3b04735b754d79e5de837fd3d7e4d36ee416d8b8021de8838cf095c99",
+    "voices/alexandre-comfort-f71162ed-v2/profile.json": "19810b014a5d69c4e914acb0b43f8dade0ef318263886d5d10c430c50c5ef13e"
   },
   "sources": {
     "manu-v1": {
@@ -82,6 +84,10 @@
       "original_filename": "original.wav"
     },
     "alexandre-comfort-f71162ed-v1": {
+      "file": "sources/3e5fcbf3b04735b754d79e5de837fd3d7e4d36ee416d8b8021de8838cf095c99.wav",
+      "original_filename": "original.wav"
+    },
+    "alexandre-comfort-f71162ed-v2": {
       "file": "sources/3e5fcbf3b04735b754d79e5de837fd3d7e4d36ee416d8b8021de8838cf095c99.wav",
       "original_filename": "original.wav"
     }
