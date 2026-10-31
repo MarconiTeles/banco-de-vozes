@@ -27,6 +27,7 @@
     "voices/polo-b2-pov02-15003d23-v1/profile.json",
     "voices/polo-b2-pov02-15003d23-v2/profile.json",
     "voices/polo-b2-pov03-15003d23-v1/profile.json",
+    "voices/polo-b2-pov03-15003d23-v2/profile.json",
     "voices/polo-b2-pov04-15003d23-v1/profile.json",
     "voices/polo-b2-pov05-15003d23-v1/profile.json",
     "voices/tio-phill-v1/profile.json"
@@ -76,7 +77,8 @@
     "voices/polo-b2-pov05-15003d23-v1/profile.json": "3676c3e8623889277e7763938966565eea720a395064002d24b1b18c63836c82",
     "sources/2c268b2d6b0dea5783340e2a8ec2bb144d2fb048ea83f09c614a1b5bef465e28.wav": "2c268b2d6b0dea5783340e2a8ec2bb144d2fb048ea83f09c614a1b5bef465e28",
     "voices/polo-b2-pov02-15003d23-v2/profile.json": "d3c17cfd4d842d4ce5d93ada46dc90587a5a34557b506c66801b9e656044d1db",
-    "voices/polo-b2-pov01-15003d23-v2/profile.json": "9bb0f06047288ad3d931c74c4f6e5e289e9038d705fdc19d7749f7bc65e0c240"
+    "voices/polo-b2-pov01-15003d23-v2/profile.json": "9bb0f06047288ad3d931c74c4f6e5e289e9038d705fdc19d7749f7bc65e0c240",
+    "voices/polo-b2-pov03-15003d23-v2/profile.json": "41262eeb2babb33c98dce569b7f7527323c255c178c1db25a4ffb659360e890a"
   },
   "sources": {
     "manu-v1": {
@@ -141,6 +143,10 @@
     },
     "polo-b2-pov01-15003d23-v2": {
       "file": "sources/c0165b53986ec44a042d9830252c67e5fc3c914da5b954c09a96819c091ae233.wav",
+      "original_filename": "original.wav"
+    },
+    "polo-b2-pov03-15003d23-v2": {
+      "file": "sources/3a5435a5e23480df3ad7dc0bcdb0ed9078ea8cecf57d3fb3e252935af80e57da.wav",
       "original_filename": "original.wav"
     }
   },
