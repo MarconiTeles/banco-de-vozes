@@ -43,10 +43,10 @@
     "sources/954a1f269ce1aade8877fdb02b4c1663dc8e5d410afd44ada229e1009bd655c4.wav": "954a1f269ce1aade8877fdb02b4c1663dc8e5d410afd44ada229e1009bd655c4",
     "voices/airton-1-v1/provenance.json": "42af1229313bb1b20ce57357991c459cb095a47f471b8c90d6f15d42bcadd6b5",
     "voices/airton-1-v1/transcription.json": "df12cd9fb5a64086cd16800bef47b4f2e8e327d6a79bba082ac9ee5b3729f867",
-    "voices/airton-1-carioca-ugc-v1/profile.json": "b76857bb9ee0d912bcf9e5c61730deffed0f01143a07e4cfbd6045152e04fcf9",
+    "voices/airton-1-carioca-ugc-v1/profile.json": "06b18b102e48c0f889f8aebfee64ff1c6fc8ce0f7f011fbd5e5d4819109b5a5e",
     "sources/3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80.wav": "3c88d11582d5b4bbe61d76ca7f8ef4477eea2f19f38051392e00f7e8e3ec1f80",
-    "voices/airton-1-carioca-ugc-v2/profile.json": "9a390fe1608a857cc26a19231efe755dc74057dda652f9db47626b64ccd6ce91",
-    "voices/airton-1-carioca-ugc-v3/profile.json": "e7e6ddb40fc0b8fd1c106bc53478ed0e5778c3dd9a31ed2c95c5bbe2ccd764ba"
+    "voices/airton-1-carioca-ugc-v2/profile.json": "96ab38fd7f12b3334b4602b09306e8bff90b23b47c14b99b9b305c9d852afd35",
+    "voices/airton-1-carioca-ugc-v3/profile.json": "6986aefe211e341c8313aafefcec363f588f9b3edf4ecd4c0f7ccf1775a98bec"
   },
   "sources": {
     "manu-v1": {

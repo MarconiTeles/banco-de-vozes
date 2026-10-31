@@ -28,7 +28,8 @@ def write(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(path.name + '.' + uuid.uuid4().hex + '.tmp')
-    temporary.write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+    with temporary.open('w', encoding='utf-8', newline='\n') as stream:
+        stream.write(json.dumps(value, indent=2, ensure_ascii=False) + '\n')
     os.replace(temporary, path)
 
 
