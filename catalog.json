@@ -18,6 +18,7 @@
     "voices/airton-1-v1/profile.json",
     "voices/alexandre-comfort-f71162ed-v1/profile.json",
     "voices/alexandre-comfort-f71162ed-v2/profile.json",
+    "voices/alexandre-v1/profile.json",
     "voices/ester-v1/profile.json",
     "voices/fernando-v1/profile.json",
     "voices/manu-indignada-v1/profile.json",
@@ -86,7 +87,10 @@
     "voices/polo-b2-pov05-15003d23-v2/profile.json": "481c1975274dfe27f2db61da8c14bdf0458b8bab3952def485c0ba7fcac4d349",
     "references/776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df.wav": "776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df",
     "voices/fernando-v1/profile.json": "8ac8740c955f75da13abf8f0e614593564cfaca9e9873b46e038b9ee2bc15bc0",
-    "sources/e4036066e0d792caea0f13a2a82b8a4be2e4ae90fc8db3b9e774293543a8262d.wav": "e4036066e0d792caea0f13a2a82b8a4be2e4ae90fc8db3b9e774293543a8262d"
+    "sources/e4036066e0d792caea0f13a2a82b8a4be2e4ae90fc8db3b9e774293543a8262d.wav": "e4036066e0d792caea0f13a2a82b8a4be2e4ae90fc8db3b9e774293543a8262d",
+    "references/ba2bd8face3017a11d4327cc2cf14ddcf4b0dded4763be3e4a090b7e9920e9f3.wav": "ba2bd8face3017a11d4327cc2cf14ddcf4b0dded4763be3e4a090b7e9920e9f3",
+    "voices/alexandre-v1/profile.json": "705a92bb34aaaba551f7f24db7b70c28379365148f9bfbf192f7565bb431fd7a",
+    "sources/f6908a940648ecf43b035ea114d897316f78a2e665c831a09149c927063bac63.wav": "f6908a940648ecf43b035ea114d897316f78a2e665c831a09149c927063bac63"
   },
   "sources": {
     "manu-v1": {
@@ -167,6 +171,10 @@
     },
     "fernando-v1": {
       "file": "sources/e4036066e0d792caea0f13a2a82b8a4be2e4ae90fc8db3b9e774293543a8262d.wav",
+      "original_filename": "original.wav"
+    },
+    "alexandre-v1": {
+      "file": "sources/f6908a940648ecf43b035ea114d897316f78a2e665c831a09149c927063bac63.wav",
       "original_filename": "original.wav"
     }
   },
