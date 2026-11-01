@@ -1,0 +1,13 @@
+{
+  "id": "fernando-v1",
+  "transcript": "destacar os seus ombros e esconder aquela barriguinha. Eu demorei muitos anos pra achar uma camiseta boa assim. Ela valoriza os braços, dá aquela sensação de pump, como se você tivesse acabado de sair da academia.",
+  "direction": "Fernando, mesma voz masculina madura da referência: timbre, registro, textura e sotaque brasileiro próprios da amostra, sem trocar por outro sotaque. Português do Brasil. Creator UGC falando direto para a câmera sobre algo que ele aprova de verdade: confiante, entusiasmado e convincente, energia alta, ênfase nas palavras de benefício, fala corrida e conectada, sem locutor. Pronunciar Mínimal com MÍ tônico, palavra única. Manter a fala literal.",
+  "authorized_by": "Marconi, 01/11/2026, thread T3 (sistema): 'utilize o /drama-voice e crie um modelo de voz do Fernando. pegue a voz e jeito de falar dele que esta disponivel nesse video' — anexo 'hook1-body · v6.mp4' (sha256 b2a8a6b330a494702c93c53c33f8bf7b073fc9e3f4b78e999fd8b5f9c8c012ae), trecho 1.870–11.285 s, voz real do apresentador UGC Fernando (ator real das produções FERNANDO da Minimal). Uso interno da Minimal no banco privado; não autoriza publicação pública do clone.",
+  "reference_sha256": "776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df",
+  "created_at": "2026-11-01T17:53:55.182705+00:00",
+  "name": "fernando-v1",
+  "reference": "references/776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
