@@ -21,6 +21,24 @@ class VoiceBankTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             b.asset('C:\\outside.wav')
 
+    def test_crlf_profile_is_repaired_only_when_content_is_identical(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            prof = root / 'voices' / 'x-v1' / 'profile.json'
+            b.write(prof, {'id': 'x-v1'})
+            b.write(root / 'catalog.json', {'profiles': [], 'files_sha256': {'voices/x-v1/profile.json': b.sha(prof)}})
+            lf = prof.read_bytes()
+            prof.write_bytes(lf.replace(b'\n', b'\r\n'))
+            with patch.object(b, 'ROOT', root):
+                with self.assertRaisesRegex(RuntimeError, 'SHA divergente'):
+                    b.verify()
+                self.assertEqual(b.normalize_eol(repair=True), ['voices/x-v1/profile.json'])
+                self.assertEqual(prof.read_bytes(), lf)
+                b.verify()
+                prof.write_bytes(lf.replace(b'x-v1', b'x-v2').replace(b'\n', b'\r\n'))
+                with self.assertRaisesRegex(RuntimeError, 'além de CRLF'):
+                    b.normalize_eol(repair=True)
+
     def test_changed_reference_is_detected(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

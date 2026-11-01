@@ -51,11 +51,45 @@ def asset(relative):
     return path
 
 
+TEXT_SUFFIXES = ('.json', '.md', '.py', '.txt')
+
+
+def normalize_eol(repair=False):
+    """`.gitattributes` fixa LF nos textos. Um checkout/editor Windows pode deixar CRLF no disco
+    (visto em 01/11/2026 nos perfis airton-1-carioca-ugc-v1/v2/v3 do notebook): o Git mostra
+    o arquivo limpo, mas o SHA dos bytes diverge do catálogo. Só reescreve em LF quando o
+    conteúdo normalizado é exatamente o publicado (mesmo SHA); qualquer outra diferença falha."""
+    catalog = json.loads((ROOT / 'catalog.json').read_bytes().replace(b'\r\n', b'\n').decode('utf-8-sig'))
+    fixed = []
+    for relative, digest in catalog['files_sha256'].items():
+        if not relative.endswith(TEXT_SUFFIXES):
+            continue
+        path = asset(relative)
+        raw = path.read_bytes()
+        if b'\r\n' not in raw:
+            continue
+        lf = raw.replace(b'\r\n', b'\n')
+        if hashlib.sha256(lf).hexdigest() != digest:
+            raise RuntimeError('SHA divergente (além de CRLF): ' + relative)
+        if repair:
+            temporary = path.with_name(path.name + '.' + uuid.uuid4().hex + '.tmp')
+            temporary.write_bytes(lf)
+            os.replace(temporary, path)
+        fixed.append(relative)
+    raw = (ROOT / 'catalog.json').read_bytes()
+    if b'\r\n' in raw and repair:
+        temporary = ROOT / ('catalog.json.' + uuid.uuid4().hex + '.tmp')
+        temporary.write_bytes(raw.replace(b'\r\n', b'\n'))
+        os.replace(temporary, ROOT / 'catalog.json')
+        fixed.append('catalog.json')
+    return fixed
+
+
 def verify():
     catalog = read(ROOT / 'catalog.json')
     for relative, digest in catalog['files_sha256'].items():
         if sha(asset(relative)) != digest:
-            raise RuntimeError('SHA divergente: ' + relative)
+            raise RuntimeError('SHA divergente: ' + relative + ' (se for só CRLF, `python banco_vozes.py sync` repara)')
     profiles = []
     seen = set()
     for relative in catalog['profiles']:
@@ -74,10 +108,12 @@ def verify():
     return profiles
 
 
-def git(*args):
+def git(*args, check=True):
     env = dict(os.environ, GIT_TERMINAL_PROMPT='0')
     result = subprocess.run(['git', '-C', str(ROOT), *args], capture_output=True,
                             text=True, encoding='utf-8', env=env, timeout=90)
+    if not check:
+        return result.stdout.strip()
     if result.returncode:
         raise RuntimeError(result.stderr.strip() or result.stdout.strip() or 'Git falhou')
     return result.stdout.strip()
@@ -200,9 +236,12 @@ def sync():
         git('merge', '--ff-only', 'origin/main')
         if git('rev-parse', 'HEAD') != git('rev-parse', 'origin/main'):
             raise RuntimeError('Há commits locais não publicados; faça push')
+        if git('config', '--get', 'core.autocrlf', check=False) not in ('', 'false', 'input'):
+            git('config', 'core.autocrlf', 'false')  # impede nova conversão para CRLF neste checkout
+        repaired = normalize_eol(repair=True)
         profiles = verify()
         root = install(profiles)
-        receipt = {'commit': git('rev-parse', 'HEAD'), 'voices': [v['id'] for v in profiles],
+        receipt = {'commit': git('rev-parse', 'HEAD'), 'voices': [v['id'] for v in profiles], 'eol_repaired': repaired,
                    'files_sha256': read(ROOT / 'catalog.json')['files_sha256'],
                    'installed_root': root, 'verified_at': datetime.datetime.now(datetime.timezone.utc).isoformat()}
         write(STATE / 'receipt.json', receipt)
@@ -295,7 +334,13 @@ def main():
     elif args.command == 'sync':
         result = sync()
     else:
-        sync()
+        try:
+            sync()
+        except Exception as exc:
+            # Nunca operar (nem listar vozes) com um banco que não sincronizou: lista antiga sem
+            # erro já enganou uma thread no notebook (01/11/2026).
+            print(json.dumps({'error': 'Banco de vozes não sincronizou; nada foi executado: ' + str(exc)}, ensure_ascii=False), file=sys.stderr)
+            return 2
         config, _ = machine()
         code = subprocess.call([config['python'], config['runtime'], *args.args])
         if code == 0 and args.args and args.args[0] == 'voice-add':
