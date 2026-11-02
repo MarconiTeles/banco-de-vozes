@@ -114,5 +114,40 @@ class VoiceBankTests(unittest.TestCase):
                 self.assertEqual(cmd('-C', consumer, 'rev-parse', 'HEAD'), local)
 
 
+class RuntimeFechaJunto(unittest.TestCase):
+    """Marconi, 02/11/2026: “tanto o drama quanto o davinci devem ser abertos quando usados e depois FECHADOS quando
+    acabar o uso SEMPRE”: o CLI do Drama não sobrevive ao launcher do banco."""
+
+    def test_codigo_de_saida_do_runtime(self):
+        import sys
+        self.assertEqual(b.executar_runtime([sys.executable, '-c', 'raise SystemExit(7)']), 7)
+
+    @unittest.skipIf(__import__('os').name == 'nt', 'repasse de sinal: POSIX')
+    def test_sinal_no_launcher_encerra_o_runtime(self):
+        import os, signal, sys, time
+        with tempfile.TemporaryDirectory() as d:
+            pidf = Path(d) / 'filho.pid'
+            filho = f'import os,time;open({str(pidf)!r},"w").write(str(os.getpid()));time.sleep(60)'
+            launcher = (f'import sys;sys.path.insert(0,{str(Path(b.__file__).parent)!r});import banco_vozes as b;'
+                        f'sys.exit(b.executar_runtime([sys.executable,"-c",{filho!r}]))')
+            p = subprocess.Popen([sys.executable, '-c', launcher])
+            for _ in range(100):
+                if pidf.exists() and pidf.read_text():
+                    break
+                time.sleep(0.05)
+            pid = int(pidf.read_text())
+            p.send_signal(signal.SIGTERM)
+            self.assertNotEqual(p.wait(timeout=10), 0)
+            for _ in range(100):
+                try:
+                    os.kill(pid, 0)
+                except ProcessLookupError:
+                    break
+                time.sleep(0.05)
+            else:
+                os.kill(pid, signal.SIGKILL)
+                self.fail('runtime sobreviveu ao launcher')
+
+
 if __name__ == '__main__':
     unittest.main()

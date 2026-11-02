@@ -151,6 +151,50 @@ def locked():
                 fcntl.flock(f, fcntl.LOCK_UN)
 
 
+def executar_runtime(cmd):
+    """Roda o CLI do Drama e o encerra junto com este launcher, em erro ou sinal (Marconi, 02/11/2026: “tanto o drama
+    quanto o davinci devem ser abertos quando usados e depois FECHADOS quando acabar o uso SEMPRE”). Windows: o filho
+    entra num Job Object KILL_ON_JOB_CLOSE (morre se este processo morrer); POSIX: SIGTERM/SIGHUP/SIGINT são repassados."""
+    import signal
+    proc = subprocess.Popen(cmd)
+    if os.name == 'nt':
+        try:
+            import ctypes
+            k = ctypes.windll.kernel32
+            k.CreateJobObjectW.restype = ctypes.c_void_p
+            k.SetInformationJobObject.argtypes = [ctypes.c_void_p, ctypes.c_int, ctypes.c_void_p, ctypes.c_uint32]
+            k.AssignProcessToJobObject.argtypes = [ctypes.c_void_p, ctypes.c_void_p]
+
+            class BASIC(ctypes.Structure):
+                _fields_ = [('a', ctypes.c_int64), ('b', ctypes.c_int64), ('LimitFlags', ctypes.c_uint32), ('c', ctypes.c_size_t),
+                            ('d', ctypes.c_size_t), ('e', ctypes.c_uint32), ('f', ctypes.c_size_t), ('g', ctypes.c_uint32),
+                            ('h', ctypes.c_uint32)]
+
+            class EXT(ctypes.Structure):
+                _fields_ = [('basic', BASIC), ('io', ctypes.c_uint64 * 6), ('i', ctypes.c_size_t), ('j', ctypes.c_size_t),
+                            ('k', ctypes.c_size_t), ('l', ctypes.c_size_t)]
+            job = k.CreateJobObjectW(None, None)
+            e = EXT()
+            e.basic.LimitFlags = 0x2000  # JOB_OBJECT_LIMIT_KILL_ON_JOB_CLOSE
+            if not (job and k.SetInformationJobObject(job, 9, ctypes.byref(e), ctypes.sizeof(e))
+                    and k.AssignProcessToJobObject(job, int(proc._handle))):
+                raise OSError('Job Object recusado')
+            executar_runtime.job = job  # o handle vive enquanto este processo vive
+        except Exception as exc:
+            print(json.dumps({'aviso': 'runtime fora do Job Object: ' + str(exc)}, ensure_ascii=False), file=sys.stderr)
+    else:
+        def repassar(sinal, _quadro):
+            with contextlib.suppress(ProcessLookupError):
+                proc.send_signal(sinal)
+        for sinal in (signal.SIGTERM, signal.SIGHUP, signal.SIGINT):
+            signal.signal(sinal, repassar)
+    while True:
+        try:
+            return proc.wait()
+        except KeyboardInterrupt:
+            continue  # o sinal já foi repassado; espera o filho encerrar o motor e sair
+
+
 def runtime_module(config):
     path = Path(config['runtime']).resolve(strict=True)
     spec = importlib.util.spec_from_file_location('drama_bank_runtime', path)
@@ -342,7 +386,7 @@ def main():
             print(json.dumps({'error': 'Banco de vozes não sincronizou; nada foi executado: ' + str(exc)}, ensure_ascii=False), file=sys.stderr)
             return 2
         config, _ = machine()
-        code = subprocess.call([config['python'], config['runtime'], *args.args])
+        code = executar_runtime([config['python'], config['runtime'], *args.args])
         if code == 0 and args.args and args.args[0] == 'voice-add':
             ident = args.args[args.args.index('--id') + 1]
             print(json.dumps(publish(ident)), file=sys.stderr)
