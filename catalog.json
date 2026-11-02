@@ -21,6 +21,7 @@
     "voices/alexandre-v1/profile.json",
     "voices/ester-v1/profile.json",
     "voices/fernando-v1/profile.json",
+    "voices/fernando-vo-empolgado-v1/profile.json",
     "voices/manu-indignada-v1/profile.json",
     "voices/manu-indignada-v2/profile.json",
     "voices/manu-v1/profile.json",
@@ -90,7 +91,9 @@
     "sources/e4036066e0d792caea0f13a2a82b8a4be2e4ae90fc8db3b9e774293543a8262d.wav": "e4036066e0d792caea0f13a2a82b8a4be2e4ae90fc8db3b9e774293543a8262d",
     "references/ba2bd8face3017a11d4327cc2cf14ddcf4b0dded4763be3e4a090b7e9920e9f3.wav": "ba2bd8face3017a11d4327cc2cf14ddcf4b0dded4763be3e4a090b7e9920e9f3",
     "voices/alexandre-v1/profile.json": "705a92bb34aaaba551f7f24db7b70c28379365148f9bfbf192f7565bb431fd7a",
-    "sources/f6908a940648ecf43b035ea114d897316f78a2e665c831a09149c927063bac63.wav": "f6908a940648ecf43b035ea114d897316f78a2e665c831a09149c927063bac63"
+    "sources/f6908a940648ecf43b035ea114d897316f78a2e665c831a09149c927063bac63.wav": "f6908a940648ecf43b035ea114d897316f78a2e665c831a09149c927063bac63",
+    "voices/fernando-vo-empolgado-v1/profile.json": "10f43bad1afc679a6f7f8a9f4675eb987ad6e763a3290223efb843595b946083",
+    "sources/776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df.wav": "776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df"
   },
   "sources": {
     "manu-v1": {
@@ -175,6 +178,10 @@
     },
     "alexandre-v1": {
       "file": "sources/f6908a940648ecf43b035ea114d897316f78a2e665c831a09149c927063bac63.wav",
+      "original_filename": "original.wav"
+    },
+    "fernando-vo-empolgado-v1": {
+      "file": "sources/776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df.wav",
       "original_filename": "original.wav"
     }
   },

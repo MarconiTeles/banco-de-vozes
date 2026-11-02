@@ -1,0 +1,13 @@
+{
+  "id": "fernando-vo-empolgado-v1",
+  "transcript": "destacar os seus ombros e esconder aquela barriguinha. Eu demorei muitos anos pra achar uma camiseta boa assim. Ela valoriza os braços, dá aquela sensação de pump, como se você tivesse acabado de sair da academia.",
+  "direction": "Fernando, mesma voz masculina madura da referência: timbre, registro, textura e sotaque brasileiro próprios da amostra, sem trocar por outro sotaque. Português do Brasil. Voice-over de anúncio com jeito de creator UGC, muito empolgado de verdade com a camiseta que está mostrando: energia muito alta, sorriso na voz, ênfase forte nas palavras de benefício e de oferta, palavras de ligação mais leves, fala corrida e conectada, humana, sem locutor, sem gritaria e sem caricatura. Pronunciar Mínimal com MÍ tônico, palavra única; Clâb como em inglês. Manter a fala literal.",
+  "authorized_by": "Marconi, 02/11/2026, revisão e6975f09 do CU-17tr6jh5udn, comentário ea4b99aa: 'substitua a voz do video por um VoiceOver com a voz do fernando no DRAMA3. com bastante empolgação e energia na atuação.' Variante de atuação da referência autorizada fernando-v1 (mesmo source SHA 776eb340…); uso interno no banco privado, sem publicação pública do clone.",
+  "reference_sha256": "776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df",
+  "created_at": "2026-11-02T19:49:41.764144+00:00",
+  "name": "fernando-vo-empolgado-v1",
+  "reference": "references/776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme autorização de origem."
+}
