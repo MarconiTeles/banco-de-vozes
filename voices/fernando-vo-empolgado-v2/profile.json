@@ -1,0 +1,13 @@
+{
+  "id": "fernando-vo-empolgado-v2",
+  "transcript": "destacar os seus ombros e esconder aquela barriguinha. Eu demorei muitos anos pra achar uma camiseta boa assim. Ela valoriza os braços, dá aquela sensação de pump, como se você tivesse acabado de sair da academia.",
+  "direction": "Fernando, mesma voz e sotaque brasileiro da referência. Português do Brasil. Voice-over de anúncio muito empolgado, energia altíssima, sorriso na voz, ênfase nas palavras de oferta, fala corrida e humana, sem locutor. Mínimal com MÍ tônico. Manter a fala literal.",
+  "authorized_by": "Marconi, 02/11/2026, revisão e6975f09 do CU-17tr6jh5udn, comentário ea4b99aa: 'substitua a voz do video por um VoiceOver com a voz do fernando no DRAMA3. com bastante empolgação e energia na atuação.' Variante v2 com ficha enxuta depois de H1 e B2 da v1 lerem a direção em voz alta (mesmo defeito do alexandre-comfort-f71162ed). Mesma referência de fernando-v1; uso interno no banco privado.",
+  "reference_sha256": "776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df",
+  "created_at": "2026-11-02T21:09:19.596659+00:00",
+  "name": "fernando-vo-empolgado-v2",
+  "reference": "references/776eb340cd8e4f91adfc1e1013cd0d881f0df56fef6b5f68f564cf064cbbb4df.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme autorização de origem."
+}
