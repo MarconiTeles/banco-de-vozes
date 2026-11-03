@@ -1,0 +1,13 @@
+{
+  "id": "alvite-v1",
+  "transcript": "Porque ela veste certinho na perna e deixa você com cara de quem treina. Porque é feita de algodão premium com elastano, que estica quando você se mexe e volta pro lugar. E porque ela é confortável demais, não aperta as pernas, não prende na cintura e não aperta lá embaixo.",
+  "direction": "Pedro Alvite, voz masculina da referência autorizada: timbre, registro, textura e sotaque brasileiro próprios da amostra, sem trocar por outro sotaque. Locução de anúncio da calça jeans Mínimal, falada à câmera com energia natural. Mínimal com MÍ tônico.",
+  "authorized_by": "Pedido de Marconi, 03/11/2026: \"Crie um modelo de voz pra cada audio desses no drama.\" Áudio enviado por ele na thread (VOZ PEDRO ALVINTE.m4a, sha256 df0dac9ece77d92e…); referência = trecho 2,28–18,06 s, sem música",
+  "reference_sha256": "87712852b211c657be5f4344cac320132f376884aca046f892a3347047a32a72",
+  "created_at": "2026-11-03T19:47:07.435930+00:00",
+  "name": "alvite-v1",
+  "reference": "references/87712852b211c657be5f4344cac320132f376884aca046f892a3347047a32a72.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
