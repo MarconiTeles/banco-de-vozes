@@ -10,4 +10,6 @@ Cada cadastro feito pelo CLI integrado é exportado e publicado por commit/push.
 
 A marca Minimal se pronuncia **MÍnimal**, tônica na primeira sílaba. Usar `Mínimal` no texto para síntese, como grafia de pronúncia, e preservar a grafia comercial Minimal em materiais escritos. Tom de indignação é específico da variante Manu indignada; não aplicar a todas as vozes.
 
-Português do Brasil; fala viva, corrida, espontânea, conectada, sem arrastar nem preencher duração. Fichas e texto literal prevalecem. Hash/ASR não provam pronúncia, timbre, sotaque ou atuação. Não inventar escuta. Cadastro e sincronização não autorizam publicação de clones ou mensagens a terceiros.
+Português do Brasil; fala viva, corrida, espontânea, conectada, sem arrastar nem preencher duração. Fichas e texto literal prevalecem.
+
+**Direção do Drama 3 (Marconi, 03/11/2026: “Formato oficial”):** a ficha `direction` documenta a identidade e **não vai mais ao modelo**; identidade, timbre e sotaque vêm do áudio de referência e da transcrição. Cada geração recebe só um estilo curto de atuação (`--style`, até 20 palavras, ideal 4 a 12), e o compilador põe `[language: pt] [audio tokens: N]`. Atuação muito diferente da referência pede uma referência nova (variante versionada), não uma ficha mais longa. Guia: `Compartilhados/drama-voice/DIRECAO-DRAMA3.md`. Hash/ASR não provam pronúncia, timbre, sotaque ou atuação. Não inventar escuta. Cadastro e sincronização não autorizam publicação de clones ou mensagens a terceiros.
