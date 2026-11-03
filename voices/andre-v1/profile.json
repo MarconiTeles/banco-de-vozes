@@ -1,0 +1,13 @@
+{
+  "id": "andre-v1",
+  "transcript": "Começou a Black Friday na Minimal Club e a calça jeans Minimal está com o menor preço da história. Você nunca viu uma calça tão barata. Onde mais você vai achar uma calça jeans de algodão premium, flexível desse jeito, por esse preço?",
+  "direction": "André, voz masculina da referência autorizada: timbre, registro, textura e sotaque brasileiro próprios da amostra, sem trocar por outro sotaque. Locução de oferta da Black Friday da calça jeans, firme e empolgada. Mínimal com MÍ tônico.",
+  "authorized_by": "Pedido de Marconi, 03/11/2026: \"Crie um modelo de voz pra cada audio desses no drama.\" Áudio enviado por ele na thread (VOZ ANDRÉ.m4a, sha256 e8e220c1c4444573…); referência = trecho 2,10–15,06 s, sem música",
+  "reference_sha256": "205740ba74ad6a8ed9907a4b0a7ad58545454a90be12affb3771ebd28805ac2a",
+  "created_at": "2026-11-03T19:48:01.802898+00:00",
+  "name": "andre-v1",
+  "reference": "references/205740ba74ad6a8ed9907a4b0a7ad58545454a90be12affb3771ebd28805ac2a.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
