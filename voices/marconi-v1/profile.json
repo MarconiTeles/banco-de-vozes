@@ -1,0 +1,13 @@
+{
+  "id": "marconi-v1",
+  "transcript": "Mas o maior motivo é a promoção. Começou a Black Friday da Minimal. E a calça jeans Minimal está com o menor preço da história. Você nunca viu uma calça tão barata.",
+  "direction": "Marconi, voz masculina da referência autorizada por ele mesmo: timbre, registro, textura e sotaque brasileiro próprios da amostra, sem trocar por outro sotaque. Locução de oferta da Black Friday, direta e animada. Mínimal com MÍ tônico.",
+  "authorized_by": "Pedido de Marconi, 03/11/2026: \"Crie um modelo de voz pra cada audio desses no drama.\" Áudio enviado por ele na thread (VOZ MARCONI.m4a, sha256 1fb18fdc858cd423…); referência = trecho 25,30–37,98 s, sem música",
+  "reference_sha256": "e365abd6432d4f1b0e0d1c7993983d862996003bb2403c5ba85870448e069cce",
+  "created_at": "2026-11-03T19:47:37.088732+00:00",
+  "name": "marconi-v1",
+  "reference": "references/e365abd6432d4f1b0e0d1c7993983d862996003bb2403c5ba85870448e069cce.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
