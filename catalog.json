@@ -40,7 +40,8 @@
     "voices/polo-b2-pov05-15003d23-v1/profile.json",
     "voices/polo-b2-pov05-15003d23-v2/profile.json",
     "voices/tio-phill-v1/profile.json",
-    "voices/voldemort-v1/profile.json"
+    "voices/voldemort-v1/profile.json",
+    "voices/voldemort-v2/profile.json"
   ],
   "files_sha256": {
     "references/daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf.wav": "daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf",
@@ -111,7 +112,10 @@
     "sources/e0ed0cb01105b3cf0c56b53d13088ba2e4096b088067e1ea91449eda54bd248f.wav": "e0ed0cb01105b3cf0c56b53d13088ba2e4096b088067e1ea91449eda54bd248f",
     "references/87f72400bc120c78c11cd0f22cd90419915f77379fe56ba642264a0b607a5993.wav": "87f72400bc120c78c11cd0f22cd90419915f77379fe56ba642264a0b607a5993",
     "voices/voldemort-v1/profile.json": "514170faa4fb15ab03e8e2ab4a806c6e8e86f4e386cf05ff0cbcf20ab4807746",
-    "sources/1136467932589a4e1752b354ed934db48e3b14c774d6ce5138899b61402d15b7.wav": "1136467932589a4e1752b354ed934db48e3b14c774d6ce5138899b61402d15b7"
+    "sources/1136467932589a4e1752b354ed934db48e3b14c774d6ce5138899b61402d15b7.wav": "1136467932589a4e1752b354ed934db48e3b14c774d6ce5138899b61402d15b7",
+    "references/88603e1b906ec9c47cbd66b708278996d9f26a4983609b670eb4b7c3ab5dc135.wav": "88603e1b906ec9c47cbd66b708278996d9f26a4983609b670eb4b7c3ab5dc135",
+    "voices/voldemort-v2/profile.json": "0f82f2fb24e66108c428f7af3e644be5b10b706430332c66dc7c168943e0de22",
+    "sources/27ba0e03abc89fee619105afe6a0f930d179f802ea4ebf00fdaa04a219c2983d.wav": "27ba0e03abc89fee619105afe6a0f930d179f802ea4ebf00fdaa04a219c2983d"
   },
   "sources": {
     "manu-v1": {
@@ -220,6 +224,10 @@
     },
     "voldemort-v1": {
       "file": "sources/1136467932589a4e1752b354ed934db48e3b14c774d6ce5138899b61402d15b7.wav",
+      "original_filename": "original.wav"
+    },
+    "voldemort-v2": {
+      "file": "sources/27ba0e03abc89fee619105afe6a0f930d179f802ea4ebf00fdaa04a219c2983d.wav",
       "original_filename": "original.wav"
     }
   },
