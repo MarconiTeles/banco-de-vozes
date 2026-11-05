@@ -1,0 +1,13 @@
+{
+  "id": "genio-jumanji-v1",
+  "transcript": "Mas não perca mais tempo, porque essa é uma oferta exclusiva que você não vai encontrar no site.",
+  "direction": "Voz do Gênio (Big Copy Jumanji H3): barítono macio e ressonante, brincalhão e irônico, carismático, carioca. Preservar identidade vocal, timbre, registro e sotaque da amostra em português do Brasil. A marca Minimal se pronuncia MÍnimal, com tônica na primeira sílaba.",
+  "authorized_by": "Marconi, 05/11/2026, nesta conversa: para o T02 do Big Copy Jumanji H3, escolheu 'Áudio original + Seed-VC' (trocar o timbre da fala do take original pela voz do Gênio). Fonte: voz do personagem Gênio gerada por IA nesta produção, take T11_720p_r4.mp4 (Seedance 2.5, Higgsfield; sha256 8fbf6ac4046d7c40…, que está na timeline aprovada por Marconi), trecho 1,55–7,10 s, sem aceleração nem alteração de pitch.",
+  "reference_sha256": "eeb596b4d151e8d1a08fd37ead79cd80ce2369f90dc246efdd83c48d94acbe10",
+  "created_at": "2026-11-05T00:32:33.137331+00:00",
+  "name": "genio-jumanji-v1",
+  "reference": "references/eeb596b4d151e8d1a08fd37ead79cd80ce2369f90dc246efdd83c48d94acbe10.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}

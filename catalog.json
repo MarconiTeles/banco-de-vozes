@@ -25,6 +25,7 @@
     "voices/fernando-v1/profile.json",
     "voices/fernando-vo-empolgado-v1/profile.json",
     "voices/fernando-vo-empolgado-v2/profile.json",
+    "voices/genio-jumanji-v1/profile.json",
     "voices/manu-indignada-v1/profile.json",
     "voices/manu-indignada-v2/profile.json",
     "voices/manu-v1/profile.json",
@@ -115,7 +116,10 @@
     "sources/1136467932589a4e1752b354ed934db48e3b14c774d6ce5138899b61402d15b7.wav": "1136467932589a4e1752b354ed934db48e3b14c774d6ce5138899b61402d15b7",
     "references/88603e1b906ec9c47cbd66b708278996d9f26a4983609b670eb4b7c3ab5dc135.wav": "88603e1b906ec9c47cbd66b708278996d9f26a4983609b670eb4b7c3ab5dc135",
     "voices/voldemort-v2/profile.json": "0f82f2fb24e66108c428f7af3e644be5b10b706430332c66dc7c168943e0de22",
-    "sources/27ba0e03abc89fee619105afe6a0f930d179f802ea4ebf00fdaa04a219c2983d.wav": "27ba0e03abc89fee619105afe6a0f930d179f802ea4ebf00fdaa04a219c2983d"
+    "sources/27ba0e03abc89fee619105afe6a0f930d179f802ea4ebf00fdaa04a219c2983d.wav": "27ba0e03abc89fee619105afe6a0f930d179f802ea4ebf00fdaa04a219c2983d",
+    "references/eeb596b4d151e8d1a08fd37ead79cd80ce2369f90dc246efdd83c48d94acbe10.wav": "eeb596b4d151e8d1a08fd37ead79cd80ce2369f90dc246efdd83c48d94acbe10",
+    "voices/genio-jumanji-v1/profile.json": "fc7b7f13b433c6c2f55e0274ae5d331eefb007af262b661356296a00c1c4b65b",
+    "sources/eeb596b4d151e8d1a08fd37ead79cd80ce2369f90dc246efdd83c48d94acbe10.wav": "eeb596b4d151e8d1a08fd37ead79cd80ce2369f90dc246efdd83c48d94acbe10"
   },
   "sources": {
     "manu-v1": {
@@ -228,6 +232,10 @@
     },
     "voldemort-v2": {
       "file": "sources/27ba0e03abc89fee619105afe6a0f930d179f802ea4ebf00fdaa04a219c2983d.wav",
+      "original_filename": "original.wav"
+    },
+    "genio-jumanji-v1": {
+      "file": "sources/eeb596b4d151e8d1a08fd37ead79cd80ce2369f90dc246efdd83c48d94acbe10.wav",
       "original_filename": "original.wav"
     }
   },
