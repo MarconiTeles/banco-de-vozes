@@ -26,6 +26,7 @@
     "voices/fernando-vo-empolgado-v1/profile.json",
     "voices/fernando-vo-empolgado-v2/profile.json",
     "voices/genio-jumanji-v1/profile.json",
+    "voices/house-v1-restaurada/profile.json",
     "voices/house-v1/profile.json",
     "voices/manu-indignada-v1/profile.json",
     "voices/manu-indignada-v2/profile.json",
@@ -135,7 +136,10 @@
     "sources/8a35b124f5f55b1d42a8b16d6ca7913fea2ce81019f47aa5256fe3c1137eef9e.wav": "8a35b124f5f55b1d42a8b16d6ca7913fea2ce81019f47aa5256fe3c1137eef9e",
     "references/07794c16367655c589a1cada4799a12cdfd10192c7acf29f5d2a196e59ccb0b5.wav": "07794c16367655c589a1cada4799a12cdfd10192c7acf29f5d2a196e59ccb0b5",
     "voices/tony-garrido-v1-restaurada/profile.json": "6ddae39a0a3cc70863077126429b3a982c2aa949f3102391e615216f03fbdd9f",
-    "sources/fd5f3abb051e61cf0220f15b6f40c2e4a83740336cee57517d512e2bf6243ebb.wav": "fd5f3abb051e61cf0220f15b6f40c2e4a83740336cee57517d512e2bf6243ebb"
+    "sources/fd5f3abb051e61cf0220f15b6f40c2e4a83740336cee57517d512e2bf6243ebb.wav": "fd5f3abb051e61cf0220f15b6f40c2e4a83740336cee57517d512e2bf6243ebb",
+    "references/005b95fe84c56e1eff66e0d3bb7761161436843bc45d4fa65bdb43df266c1014.wav": "005b95fe84c56e1eff66e0d3bb7761161436843bc45d4fa65bdb43df266c1014",
+    "voices/house-v1-restaurada/profile.json": "bf20197d2bf2f114d3f60945fcea982bc6fd9f17d65ce29fa21011dfe187316d",
+    "sources/cbcf20c1ecb198635fe55b83d30a4b1b938d41a768ee8569af54942f47c4af44.wav": "cbcf20c1ecb198635fe55b83d30a4b1b938d41a768ee8569af54942f47c4af44"
   },
   "sources": {
     "manu-v1": {
@@ -268,6 +272,10 @@
     },
     "tony-garrido-v1-restaurada": {
       "file": "sources/fd5f3abb051e61cf0220f15b6f40c2e4a83740336cee57517d512e2bf6243ebb.wav",
+      "original_filename": "original.wav"
+    },
+    "house-v1-restaurada": {
+      "file": "sources/cbcf20c1ecb198635fe55b83d30a4b1b938d41a768ee8569af54942f47c4af44.wav",
       "original_filename": "original.wav"
     }
   },

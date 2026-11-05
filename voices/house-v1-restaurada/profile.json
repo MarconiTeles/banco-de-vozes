@@ -1,0 +1,13 @@
+{
+  "id": "house-v1-restaurada",
+  "transcript": "Não, realmente não é. O pessoal do laboratório bebe pra valer, mas são profissionais. E a sua filha não tem nenhum sintoma de Streptococcus. Achei mais rápido fazer o teste do que discutir com você. Em resumo, saiam.",
+  "direction": "Voz House conforme a referência: médico sarcástico, seco e direto, em diálogo dublado em português do Brasil. Preservar identidade vocal, timbre, registro, textura, pronúncia e sotaque da amostra, sem caricatura nem alteração artificial de pitch. A marca Minimal se pronuncia MÍnimal, com tônica na primeira sílaba. Variante restaurada: amostra de house-v1 limpa com Resemble Enhance (redução de ruído e realce, sem mudar velocidade nem tom).",
+  "authorized_by": "Marconi, 05/11/2026, nesta conversa: \"a qualidade do audio precisa ser melhor. em todas as vozes\". Variante de house-v1 (mesma fonte, mesmo trecho e mesma autorização), com a amostra restaurada pelo Resemble Enhance (nfe 64, lambd 0,9, tau 0,5): menos ruído de fundo e compressão de internet, sem mudar velocidade nem tom.",
+  "reference_sha256": "005b95fe84c56e1eff66e0d3bb7761161436843bc45d4fa65bdb43df266c1014",
+  "created_at": "2026-11-05T15:19:06.805587+00:00",
+  "name": "house-v1-restaurada",
+  "reference": "references/005b95fe84c56e1eff66e0d3bb7761161436843bc45d4fa65bdb43df266c1014.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
