@@ -1,0 +1,13 @@
+{
+  "id": "tony-garrido-v1",
+  "transcript": "E foi uma experiência louca, porque eu nunca tinha morado fora, morado sozinho na minha vida, desde que eu nasci. Eu nasci e casei com 19 anos, fui morar e nunca morei fora da minha vida. E de repente recebi uma proposta de fazer um trabalho aqui. Eu estava fora da cidade",
+  "direction": "Voz Tony Garrido conforme a referência: depoimento espontâneo em entrevista de TV, ritmo vivo e conversacional. Preservar identidade vocal, timbre, registro, textura, pronúncia e sotaque carioca da amostra em português do Brasil, sem caricatura nem alteração artificial de pitch. A marca Minimal se pronuncia MÍnimal, com tônica na primeira sílaba.",
+  "authorized_by": "Marconi, 05/11/2026, nesta conversa: \"Crie a voz Tony Garrido baseadp nesse trecho de audio. Voz publica pois é de um conhcido meu entao nao precisa de privar.\" Fonte: vídeo anexado Garrido.mp4 (sha256 257e03182f75477aa8c14021597bdc9fe7a6e706cf1c25cf41abecb493e81e95), trecho 4,48–18,34 s, só o falante principal (diarização: a outra voz aparece só em 18,72–19,28 s, fora do trecho). Sem restrição de uso privado, por pedido de Marconi.",
+  "reference_sha256": "ea255e845d1722e658e2cd8698758733234f6f5f32bc0598f75d4213aa5ce7e0",
+  "created_at": "2026-11-05T13:48:31.658836+00:00",
+  "name": "tony-garrido-v1",
+  "reference": "references/ea255e845d1722e658e2cd8698758733234f6f5f32bc0598f75d4213aa5ce7e0.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
