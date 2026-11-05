@@ -1,0 +1,13 @@
+{
+  "id": "tony-garrido-v1-restaurada",
+  "transcript": "E foi uma experiência louca, porque eu nunca tinha morado fora, morado sozinho na minha vida, desde que eu nasci. Eu nasci e casei com 19 anos, fui morar e nunca morei fora da minha vida. E de repente recebi uma proposta de fazer um trabalho aqui. Eu estava fora da cidade",
+  "direction": "Voz Tony Garrido conforme a referência: depoimento espontâneo em entrevista de TV, ritmo vivo e conversacional. Preservar identidade vocal, timbre, registro, textura, pronúncia e sotaque carioca da amostra em português do Brasil, sem caricatura nem alteração artificial de pitch. A marca Minimal se pronuncia MÍnimal, com tônica na primeira sílaba. Variante restaurada: amostra de tony-garrido-v1 limpa com Resemble Enhance (redução de ruído e realce, sem mudar velocidade nem tom).",
+  "authorized_by": "Marconi, 05/11/2026, nesta conversa: \"a qualidade do audio precisa ser melhor. em todas as vozes\". Variante de tony-garrido-v1 (mesma fonte, mesmo trecho e mesma autorização), com a amostra restaurada pelo Resemble Enhance (nfe 64, lambd 0,9, tau 0,5): menos ruído de fundo e compressão de internet, sem mudar velocidade nem tom.",
+  "reference_sha256": "07794c16367655c589a1cada4799a12cdfd10192c7acf29f5d2a196e59ccb0b5",
+  "created_at": "2026-11-05T15:18:59.275854+00:00",
+  "name": "tony-garrido-v1-restaurada",
+  "reference": "references/07794c16367655c589a1cada4799a12cdfd10192c7acf29f5d2a196e59ccb0b5.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
