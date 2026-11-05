@@ -1,0 +1,13 @@
+{
+  "id": "house-v1",
+  "transcript": "Não, realmente não é. O pessoal do laboratório bebe pra valer, mas são profissionais. E a sua filha não tem nenhum sintoma de Streptococcus. Achei mais rápido fazer o teste do que discutir com você. Em resumo, saiam.",
+  "direction": "Voz House conforme a referência: médico sarcástico, seco e direto, em diálogo dublado em português do Brasil. Preservar identidade vocal, timbre, registro, textura, pronúncia e sotaque da amostra, sem caricatura nem alteração artificial de pitch. A marca Minimal se pronuncia MÍnimal, com tônica na primeira sílaba.",
+  "authorized_by": "Marconi, 05/11/2026, nesta conversa: \"gere a voz do House que tambem autorizou. atravez desse video […] tem uma mulher falando no video tmb. desconsidere a voz dela\". Fonte: Dr House - O acucar faz mal - compativel Mac.mp4 (sha256 d63d9f0035ec0253e9cb15b6dcab385c54d87fd025cad0aef6e520946c71a0c5), trecho 7,26–17,98 s, só a voz do House (diarização: a mulher fala em 6,48–7,44 e a partir de 18,08 s, fora do trecho; Resemblyzer: 0,889 com outra fala do House no vídeo e 0,609 com a mulher). Sem restrição de uso privado, por pedido de Marconi.",
+  "reference_sha256": "c57eaa53fcd34d192a7af272c96d1a057710f55ced4f1071ac70451f7947b857",
+  "created_at": "2026-11-05T14:15:11.371187+00:00",
+  "name": "house-v1",
+  "reference": "references/c57eaa53fcd34d192a7af272c96d1a057710f55ced4f1071ac70451f7947b857.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
