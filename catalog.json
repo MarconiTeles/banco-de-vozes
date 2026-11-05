@@ -43,6 +43,7 @@
     "voices/polo-b2-pov05-15003d23-v2/profile.json",
     "voices/tio-phill-v1/profile.json",
     "voices/tony-garrido-v1/profile.json",
+    "voices/tony-garrido-v2/profile.json",
     "voices/voldemort-v1/profile.json",
     "voices/voldemort-v2/profile.json"
   ],
@@ -127,7 +128,10 @@
     "sources/8e61df85ae83b3c7ca43e401cdf68876867f548171b8bf2b799c5401a105288e.wav": "8e61df85ae83b3c7ca43e401cdf68876867f548171b8bf2b799c5401a105288e",
     "references/c57eaa53fcd34d192a7af272c96d1a057710f55ced4f1071ac70451f7947b857.wav": "c57eaa53fcd34d192a7af272c96d1a057710f55ced4f1071ac70451f7947b857",
     "voices/house-v1/profile.json": "23c72c1cc398ec9f1375af56830d786b3c474f7f20188ba22fead3b86aec922e",
-    "sources/1890cff589206feb93b0bcf99f7738814af03de8332db2df5fdfa96bfb7c5524.wav": "1890cff589206feb93b0bcf99f7738814af03de8332db2df5fdfa96bfb7c5524"
+    "sources/1890cff589206feb93b0bcf99f7738814af03de8332db2df5fdfa96bfb7c5524.wav": "1890cff589206feb93b0bcf99f7738814af03de8332db2df5fdfa96bfb7c5524",
+    "references/0977b42752cae6dc8517a371c2fcb24a526ae33944a8b110f020e04a4e051cd5.wav": "0977b42752cae6dc8517a371c2fcb24a526ae33944a8b110f020e04a4e051cd5",
+    "voices/tony-garrido-v2/profile.json": "db6d2b56b75d0e5223edc40ab7bb71df28401078ed539825fddcd873c9c7261d",
+    "sources/8a35b124f5f55b1d42a8b16d6ca7913fea2ce81019f47aa5256fe3c1137eef9e.wav": "8a35b124f5f55b1d42a8b16d6ca7913fea2ce81019f47aa5256fe3c1137eef9e"
   },
   "sources": {
     "manu-v1": {
@@ -252,6 +256,10 @@
     },
     "house-v1": {
       "file": "sources/1890cff589206feb93b0bcf99f7738814af03de8332db2df5fdfa96bfb7c5524.wav",
+      "original_filename": "original.wav"
+    },
+    "tony-garrido-v2": {
+      "file": "sources/8a35b124f5f55b1d42a8b16d6ca7913fea2ce81019f47aa5256fe3c1137eef9e.wav",
       "original_filename": "original.wav"
     }
   },

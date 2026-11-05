@@ -1,0 +1,13 @@
+{
+  "id": "tony-garrido-v2",
+  "transcript": "A equipe, família total, todo mundo se ajuda. Foi um ano e foi uma experiência louca, porque eu nunca tinha morado fora, morado sozinho na minha vida, desde que eu nasci.",
+  "direction": "Voz Tony Garrido, variante v2: mesmo falante e mesmo vídeo de tony-garrido-v1, só o trecho de registro mais grave (tom mediano 182 Hz contra 202 Hz da v1, que incluía o trecho empolgado). Preservar identidade vocal, timbre grave, registro, textura, pronúncia e sotaque carioca da amostra em português do Brasil. A marca Minimal se pronuncia MÍnimal, com tônica na primeira sílaba.",
+  "authorized_by": "Marconi, 05/11/2026, nesta conversa: \"Crie a voz Tony Garrido baseadp nesse trecho de audio. Voz publica pois é de um conhcido meu entao nao precisa de privar.\" e, sobre a primeira geração, \"a voz do garrido ficou muito aguda. nao capturou os tons graves tmb\". Fonte: Garrido.mp4 (sha256 257e03182f75477aa8c14021597bdc9fe7a6e706cf1c25cf41abecb493e81e95), trecho 0,94–9,52 s, só o falante principal, sem processamento. Sem restrição de uso privado.",
+  "reference_sha256": "0977b42752cae6dc8517a371c2fcb24a526ae33944a8b110f020e04a4e051cd5",
+  "created_at": "2026-11-05T14:50:28.948820+00:00",
+  "name": "tony-garrido-v2",
+  "reference": "references/0977b42752cae6dc8517a371c2fcb24a526ae33944a8b110f020e04a4e051cd5.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
