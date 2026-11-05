@@ -47,6 +47,7 @@
     "voices/tony-garrido-v1/profile.json",
     "voices/tony-garrido-v2/profile.json",
     "voices/tony-garrido-v3-limpa/profile.json",
+    "voices/tony-garrido-v4-limpa-lenta/profile.json",
     "voices/voldemort-v1/profile.json",
     "voices/voldemort-v2-restaurada/profile.json",
     "voices/voldemort-v2/profile.json"
@@ -147,7 +148,10 @@
     "sources/96c9e1ea30e2db2c6466fc5690b751dd0f6f429f827a022d49c692180c0de1fa.wav": "96c9e1ea30e2db2c6466fc5690b751dd0f6f429f827a022d49c692180c0de1fa",
     "references/96d7546bd5b1840ada3f7e99592b4f193de169502e9fe900ccfc0e9060203a4f.wav": "96d7546bd5b1840ada3f7e99592b4f193de169502e9fe900ccfc0e9060203a4f",
     "voices/tony-garrido-v3-limpa/profile.json": "916603d3fbe0e1ee9a2787da847eb480e262dd0252fd0a1c6c2faa338becb268",
-    "sources/bf9334024d0af22c5071685cbebe4f068e13e34467d5ddfe34197035f577e3fd.wav": "bf9334024d0af22c5071685cbebe4f068e13e34467d5ddfe34197035f577e3fd"
+    "sources/bf9334024d0af22c5071685cbebe4f068e13e34467d5ddfe34197035f577e3fd.wav": "bf9334024d0af22c5071685cbebe4f068e13e34467d5ddfe34197035f577e3fd",
+    "references/88cc6094c90ca803e563196a547aa2a1d46b142d0410b3aeb6d8344ad9c4dbdb.wav": "88cc6094c90ca803e563196a547aa2a1d46b142d0410b3aeb6d8344ad9c4dbdb",
+    "voices/tony-garrido-v4-limpa-lenta/profile.json": "6957da5ff9fdf148f28b6c04f0c13785642242acf4c41ef1c66badaf65eb6625",
+    "sources/56a35fab64f9f9dcc545e436117db58ae99011f6320c471db60a3e197813d585.wav": "56a35fab64f9f9dcc545e436117db58ae99011f6320c471db60a3e197813d585"
   },
   "sources": {
     "manu-v1": {
@@ -292,6 +296,10 @@
     },
     "tony-garrido-v3-limpa": {
       "file": "sources/bf9334024d0af22c5071685cbebe4f068e13e34467d5ddfe34197035f577e3fd.wav",
+      "original_filename": "original.wav"
+    },
+    "tony-garrido-v4-limpa-lenta": {
+      "file": "sources/56a35fab64f9f9dcc545e436117db58ae99011f6320c471db60a3e197813d585.wav",
       "original_filename": "original.wav"
     }
   },
