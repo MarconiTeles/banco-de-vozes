@@ -1,0 +1,13 @@
+{
+  "id": "tony-garrido-v3-limpa",
+  "transcript": "E foi uma experiência louca, porque eu nunca tinha morado fora, morado sozinho na minha vida, desde que eu nasci. Eu nasci e casei com 19 anos, fui morar e nunca morei fora da minha vida. E de repente recebi uma proposta de fazer um trabalho aqui. Eu estava fora da cidade",
+  "direction": "Voz Tony Garrido (tony-garrido-v3-limpa): amostra de tony-garrido-v1 limpa de eco e ruído (Resemble Enhance).",
+  "authorized_by": "Marconi, 05/11/2026: \"a voz nao tem nada a ver com o garrido de vdd nesse dialogo.\" e \"alem de muito eco e ruido na voz\"; \"isso precisa estar corrrigido pro video da bigcopy\". Variante de tony-garrido-v1 (mesma fonte Garrido.mp4, trecho 4,48–18,34 s, mesma autorização de 05/11: voz pública de conhecido de Marconi, sem restrição de uso privado).",
+  "reference_sha256": "96d7546bd5b1840ada3f7e99592b4f193de169502e9fe900ccfc0e9060203a4f",
+  "created_at": "2026-11-05T18:21:21.388810+00:00",
+  "name": "tony-garrido-v3-limpa",
+  "reference": "references/96d7546bd5b1840ada3f7e99592b4f193de169502e9fe900ccfc0e9060203a4f.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme pedido e referência informados; não amplia permissão de publicação."
+}
