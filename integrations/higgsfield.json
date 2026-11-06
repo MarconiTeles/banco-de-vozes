@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "service": "Higgsfield",
+  "account_id": "user_3CUhWmFiAbJDt9cz9uHxs0MLijg",
+  "updated_on": "2026-11-06",
+  "voices": [
+    {
+      "name": "Tony Garrido",
+      "remote_name": "Tony-Garrido",
+      "profile_id": "tony-garrido-v3-limpa",
+      "reference_sha256": "96d7546bd5b1840ada3f7e99592b4f193de169502e9fe900ccfc0e9060203a4f",
+      "voice_id": "e22584a6-0de3-4d00-bbd7-19c0fa35d0ed",
+      "voice_type": "element",
+      "registration_verified": true,
+      "uploaded_reference_hash_verified": true,
+      "generation_tested": false
+    },
+    {
+      "name": "Tony Stark",
+      "remote_name": "Tony-Stark",
+      "profile_id": "tony-stark-v1",
+      "reference_sha256": "e1c3ba72856ae95a61b02e43f02c6a7768cac5d4685aa440ef914ac86cca4ee4",
+      "voice_id": "df05b30a-1c83-4ce1-87dc-ef424bff9e70",
+      "voice_type": "element",
+      "registration_verified": true,
+      "uploaded_reference_hash_verified": true,
+      "generation_tested": false
+    }
+  ]
+}
