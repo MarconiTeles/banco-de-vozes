@@ -5,17 +5,6 @@
   "updated_on": "2026-11-06",
   "voices": [
     {
-      "name": "Tony Garrido",
-      "remote_name": "Tony-Garrido",
-      "profile_id": "tony-garrido-v3-limpa",
-      "reference_sha256": "96d7546bd5b1840ada3f7e99592b4f193de169502e9fe900ccfc0e9060203a4f",
-      "voice_id": "e22584a6-0de3-4d00-bbd7-19c0fa35d0ed",
-      "voice_type": "element",
-      "registration_verified": true,
-      "uploaded_reference_hash_verified": true,
-      "generation_tested": false
-    },
-    {
       "name": "Tony Stark",
       "remote_name": "Tony-Stark",
       "profile_id": "tony-stark-v1",
@@ -25,6 +14,33 @@
       "registration_verified": true,
       "uploaded_reference_hash_verified": true,
       "generation_tested": false
+    },
+    {
+      "name": "Manu",
+      "remote_name": "Manu",
+      "profile_id": "manu-v1",
+      "reference_sha256": "daf5927fa4a5ffb8d301e0f30d2a55e01e1adc2c67832912ff02d9eeef1e6ccf",
+      "voice_id": "9732e8fa-6632-40d5-a248-b1000e86b007",
+      "voice_type": "element",
+      "registration_verified": true,
+      "uploaded_reference_hash_verified": true,
+      "generation_tested": false
+    }
+  ],
+  "retired_voices": [
+    {
+      "name": "Tony Garrido",
+      "remote_name": "Tony-Garrido",
+      "profile_id": "tony-garrido-v3-limpa",
+      "reference_sha256": "96d7546bd5b1840ada3f7e99592b4f193de169502e9fe900ccfc0e9060203a4f",
+      "voice_id": "e22584a6-0de3-4d00-bbd7-19c0fa35d0ed",
+      "voice_type": "element",
+      "registration_verified": true,
+      "uploaded_reference_hash_verified": true,
+      "generation_tested": false,
+      "status": "deleted",
+      "deleted_on": "2026-11-06",
+      "reason": "Marconi: tira o garrido e coloca a manu"
     }
   ]
 }
