@@ -1,0 +1,13 @@
+{
+  "id": "airton-flow-camiseta-urgencia-v1",
+  "transcript": "As vendas nessa Black foram maiores do que a Mínimal planejou, e várias cores e tamanhos já estão se esgotando.",
+  "direction": "Voz do Airton (Minimal Man) como sai do Google Flow (Omni 1.2 Flash) nos takes da produção CU-17tr6jhak4t: adulta masculina, grave, carioca, conversa animada. Referência = take B06 desta produção, voz isolada, trecho de fala 0,333–7,662 s. Usada como alvo do Seed-VC para igualar takes do Flow que saíram com outra voz.",
+  "authorized_by": "Marconi_20/11/2026_ordem_faz_os_ajustes_CU-17tr6jhak4t:_comentario_Victor_Medeiros_v3_voz_diferente_em_Mas_tem_um_problema,_igualar_a_voz_por_Seed-VC;_airton-1-v1_(Zebra)_mediu_0,13-0,34_contra_esta_producao;_referencia_do_take_B06_da_propria_producao",
+  "reference_sha256": "7261173db3919ae435e0921050c3f986bf89a8ef785c307eab2b4dd58e6eb1e2",
+  "created_at": "2026-11-20T19:08:50.419625+00:00",
+  "name": "airton-flow-camiseta-urgencia-v1",
+  "reference": "references/7261173db3919ae435e0921050c3f986bf89a8ef785c307eab2b4dd58e6eb1e2.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme autorização de origem."
+}
