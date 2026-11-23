@@ -2,7 +2,7 @@
   "schema_version": 1,
   "service": "Higgsfield",
   "account_id": "user_3CUhWmFiAbJDt9cz9uHxs0MLijg",
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-23",
   "voices": [
     {
       "name": "Tony Stark",
@@ -25,6 +25,18 @@
       "registration_verified": true,
       "uploaded_reference_hash_verified": true,
       "generation_tested": false
+    },
+    {
+      "name": "Alexandre",
+      "remote_name": "Alexandre-",
+      "profile_id": null,
+      "reference_sha256": null,
+      "voice_id": "084c99b3-55bf-448d-a866-c8c8a80e0c40",
+      "voice_type": "element",
+      "registration_verified": true,
+      "uploaded_reference_hash_verified": false,
+      "generation_tested": true,
+      "nota": "Elemento já existente no Higgsfield, não criado da referência alexandre-comfort v2 do banco (amostra de 67 s não contém a referência c8c2e262…; correlação 0,05). Uso autorizado por Marconi em 23/11/2026 11h53 (\"Tanto faz a versão do Alexandre: use o elemento Alexandre-\"), CU-17tr6jhbhk2 v2."
     }
   ],
   "retired_voices": [
