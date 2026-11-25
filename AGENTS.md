@@ -13,3 +13,11 @@ A marca Minimal se pronuncia **MÍnimal**, tônica na primeira sílaba. Usar `M�
 Português do Brasil; fala viva, corrida, espontânea, conectada, sem arrastar nem preencher duração. Fichas e texto literal prevalecem.
 
 **Direção do Drama 3 (Marconi, 03/11/2026: “Formato oficial”):** a ficha `direction` documenta a identidade e **não vai mais ao modelo**; identidade, timbre e sotaque vêm do áudio de referência e da transcrição. Cada geração recebe só um estilo curto de atuação (`--style`, até 20 palavras, ideal 4 a 12), e o compilador põe `[language: pt] [audio tokens: N]`. Atuação muito diferente da referência pede uma referência nova (variante versionada), não uma ficha mais longa. Guia: `Compartilhados/drama-voice/DIRECAO-DRAMA3.md`. Hash/ASR não provam pronúncia, timbre, sotaque ou atuação. Não inventar escuta. Cadastro e sincronização não autorizam publicação de clones ou mensagens a terceiros.
+
+## Segundo cérebro
+
+**Segundo cérebro (Marconi, 21/11/2026, regra obrigatória).**
+- O segundo cérebro tem que estar 100% um pra um com o original e sempre sincronizado, em todas as máquinas e cópias.
+- Toda thread de produção ou de especialista se conecta ao segundo cérebro e lê o que precisa ANTES de executar. A prova da conexão (a consulta feita e o que ela trouxe) aparece na própria thread.
+- Thread que roda sem essa conexão é falha de infraestrutura: avise o João Claude (Infra), que conserta o acesso, e refaça com o cérebro.
+- O Jarvis de voz (atendimento de ligações no WhatsApp) lê o segundo cérebro direto do disco a cada ligação.
