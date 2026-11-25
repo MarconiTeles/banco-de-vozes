@@ -50,6 +50,7 @@
     "voices/tony-garrido-v3-limpa/profile.json",
     "voices/tony-garrido-v4-limpa-lenta/profile.json",
     "voices/tony-stark-v1/profile.json",
+    "voices/tony-stark-v2/profile.json",
     "voices/voldemort-v1/profile.json",
     "voices/voldemort-v2-restaurada/profile.json",
     "voices/voldemort-v2/profile.json"
@@ -159,7 +160,10 @@
     "sources/689ff457b46db3a5165e32d485b0db83db48c653d77a3b2d79e5280395453b34.wav": "689ff457b46db3a5165e32d485b0db83db48c653d77a3b2d79e5280395453b34",
     "references/7261173db3919ae435e0921050c3f986bf89a8ef785c307eab2b4dd58e6eb1e2.wav": "7261173db3919ae435e0921050c3f986bf89a8ef785c307eab2b4dd58e6eb1e2",
     "voices/airton-flow-camiseta-urgencia-v1/profile.json": "7c545328ce60ab6573a695ea3f3dce004559c72dc371f8194486398e8fcc7321",
-    "sources/7261173db3919ae435e0921050c3f986bf89a8ef785c307eab2b4dd58e6eb1e2.wav": "7261173db3919ae435e0921050c3f986bf89a8ef785c307eab2b4dd58e6eb1e2"
+    "sources/7261173db3919ae435e0921050c3f986bf89a8ef785c307eab2b4dd58e6eb1e2.wav": "7261173db3919ae435e0921050c3f986bf89a8ef785c307eab2b4dd58e6eb1e2",
+    "references/20a42900fbbf6abb1a239e7df5efec3fee9e1198203bcf46631485f921efff9e.wav": "20a42900fbbf6abb1a239e7df5efec3fee9e1198203bcf46631485f921efff9e",
+    "voices/tony-stark-v2/profile.json": "e55e667bad8fb714d0cbb8b0644e437e9385fe7c6bbf47ec63ce916fd0afd456",
+    "sources/20a42900fbbf6abb1a239e7df5efec3fee9e1198203bcf46631485f921efff9e.wav": "20a42900fbbf6abb1a239e7df5efec3fee9e1198203bcf46631485f921efff9e"
   },
   "sources": {
     "manu-v1": {
@@ -316,6 +320,10 @@
     },
     "airton-flow-camiseta-urgencia-v1": {
       "file": "sources/7261173db3919ae435e0921050c3f986bf89a8ef785c307eab2b4dd58e6eb1e2.wav",
+      "original_filename": "original.wav"
+    },
+    "tony-stark-v2": {
+      "file": "sources/20a42900fbbf6abb1a239e7df5efec3fee9e1198203bcf46631485f921efff9e.wav",
       "original_filename": "original.wav"
     }
   },

@@ -1,0 +1,13 @@
+{
+  "id": "tony-stark-v2",
+  "transcript": "superou isso, passou por isso e virou esse ícone aí, e eu acho que o Universo Marvel deve muito, ou quase tudo, a esse cara, o carisma dele, que fez os filmes, né, chegarem.",
+  "direction": "Voz Tony Stark (tony-stark-v2): variante limpa de tony-stark-v1, mesma fonte e mesmo dublador em entrevista de podcast (voz natural dele). Trecho 2,40–16,20 s da fonte de tony-stark-v1 (sha256 689ff457…), começando em pausa e terminando em silêncio, sem a primeira frase cortada nem o fragmento final; mono 44,1 kHz, sem mudança de pitch, velocidade ou timbre. A marca Minimal se pronuncia MÍnimal.",
+  "authorized_by": "Nasser, 25/11/2026, por ordem na thread da CU-17tr6jhcfdn: revisar a referência tony-stark-v1 (trecho limpo, sem corte no início e no fim, tom igual ao do roteiro) e refazer a âncora. Mesma fonte e mesma autorização de tony-stark-v1 (Marconi, 05/11/2026).",
+  "reference_sha256": "20a42900fbbf6abb1a239e7df5efec3fee9e1198203bcf46631485f921efff9e",
+  "created_at": "2026-11-25T18:27:10.842464+00:00",
+  "name": "tony-stark-v2",
+  "reference": "references/20a42900fbbf6abb1a239e7df5efec3fee9e1198203bcf46631485f921efff9e.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme autorização de origem."
+}
