@@ -1,0 +1,13 @@
+{
+  "id": "narrador-ia-segmind-v1",
+  "transcript": "E a cada oitocentos reais em compras, você ganha um voucher pra concorrer a uma Mercedes cê duzentos. E essa é a sua última chance de participar desse sorteio. E ela tá na última campanha do ano da Mínimal, numa edição limitada, sem reposição imediata. Se o botão aqui embaixo ainda estiver aparecendo, clica e escolhe a sua cor.",
+  "direction": "Narrador de IA (voz nativa do Omni 1.2 Flash na Segmind, gerada, não é clone de pessoa real), masculino adulto, grave e encorpado, pt-BR, animado e próximo, falando corrido.",
+  "authorized_by": "Nasser (orq, 28/11/2026): voz de IA pedida pela Joana, voz nativa da Segmind (Gemini Omni), sem clone de pessoa real",
+  "reference_sha256": "d431467100ecb3aadf953cb9da2c28b3b7e1695ccb37d3c2161b7ac4361780cd",
+  "created_at": "2026-11-28T14:59:07.622655+00:00",
+  "name": "narrador-ia-segmind-v1",
+  "reference": "references/d431467100ecb3aadf953cb9da2c28b3b7e1695ccb37d3c2161b7ac4361780cd.wav",
+  "language": "pt-BR",
+  "listening_verified": false,
+  "authorization_scope": "Conforme autorização de origem."
+}
